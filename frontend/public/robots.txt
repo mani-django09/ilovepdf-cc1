@@ -1,0 +1,35 @@
+# Robots.txt for ilovepdf.cc
+# Allow all crawlers access to all content
+
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://ilovepdf.cc/sitemap.xml
+Sitemap: https://ilovepdf.cc/sitemap-pages.xml
+Sitemap: https://ilovepdf.cc/sitemap-tools.xml
+Sitemap: https://ilovepdf.cc/sitemap-blog.xml
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Block access to certain directories/files (if any)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /*.json$
+# Disallow: /*.log$
+
+# Allow specific important files
+Allow: /favicon.ico
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
+
+# Host directive (helps with canonical domain)
+Host: https://ilovepdf.cc

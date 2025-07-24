@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#dc2626" />
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="%PUBLIC_URL%/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="%PUBLIC_URL%/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/apple-touch-icon-57x57.png" />
+
+    <!-- Android/Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="%PUBLIC_URL%/android-chrome-512x512.png" />
+
+    <!-- Microsoft Application Tiles -->
+    <meta name="msapplication-TileColor" content="#dc2626" />
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="%PUBLIC_URL%/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="%PUBLIC_URL%/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="%PUBLIC_URL%/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="%PUBLIC_URL%/mstile-310x310.png" />
+    <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+
+    <!-- App Configuration -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="iLovePDF" />
+    <meta name="application-name" content="iLovePDF" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="msapplication-navbutton-color" content="#dc2626" />
+
+    <!-- SEO Meta Tags -->
+    <title>iLovePDF.cc - Free Online PDF Tools | Merge, Split, Compress & Convert PDFs</title>
+    <meta name="description" content="Free online PDF tools to merge, split, compress, convert, rotate, unlock and watermark PDFs. 100% secure, fast, and easy to use. No registration required." />
+    <meta name="keywords" content="PDF tools, merge PDF, split PDF, compress PDF, PDF to Word, Word to PDF, PDF converter, online PDF editor, free PDF tools, PNG to WebP, WebP to PNG, PNG to PDF, PDF to PNG" />
+    <meta name="author" content="iLovePDF.cc" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="iLovePDF.cc - Free Online PDF Tools" />
+    <meta property="og:description" content="Every tool you need to work with PDFs in one place. 100% FREE and secure PDF processing. Trusted by millions worldwide." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ilovepdf.cc" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="iLovePDF.cc" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="iLovePDF.cc - Free Online PDF Tools" />
+    <meta name="twitter:description" content="Merge, split, compress & convert PDFs online for free. Trusted by 10M+ users worldwide." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/twitter-image.png" />
+    <meta name="twitter:creator" content="@ilovepdfcc" />
+    <meta name="twitter:site" content="@ilovepdfcc" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ilovepdf.cc" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
+    <!-- Format Detection -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "iLovePDF.cc - Free Online PDF Tools",
+      "description": "Free online PDF tools for merging, splitting, compressing, and converting PDF files. Also includes image conversion tools like PNG to WebP, WebP to PNG.",
+      "url": "https://ilovepdf.cc",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "150000"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "iLovePDF.cc",
+        "url": "https://ilovepdf.cc",
+        "logo": "https://ilovepdf.cc/logo.png"
+      },
+      "featureList": [
+        "Merge PDF files",
+        "Split PDF documents", 
+        "Compress PDF files",
+        "Convert PDF to Word",
+        "Convert Word to PDF",
+        "Convert PNG to WebP",
+        "Convert WebP to PNG",
+        "Convert PNG to PDF",
+        "Convert PDF to PNG",
+        "Edit PDF online"
+      ],
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "softwareVersion": "2025.1",
+      "releaseNotes": "Enhanced PDF and image conversion tools with improved performance and security."
+    }
+    </script>
+
+    <!-- Additional Schema for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "iLovePDF.cc",
+      "url": "https://ilovepdf.cc",
+      "logo": "https://ilovepdf.cc/logo.png",
+      "description": "Leading provider of free online PDF tools and image conversion services.",
+      "foundingDate": "2023",
+      "knowsAbout": [
+        "PDF processing",
+        "Document conversion", 
+        "Image optimization",
+        "Web tools",
+        "File compression"
+      ],
+      "serviceType": "PDF Tools and Image Conversion Services"
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDPWMGW804"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDPWMGW804');
+</script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
