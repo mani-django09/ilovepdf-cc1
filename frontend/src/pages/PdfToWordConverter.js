@@ -72,36 +72,27 @@ function PdfToWordConverter() {
   // Enhanced FAQ with PDF to Word focus
   const faqData = [
     {
-      question: "How to convert PDF to Word online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PDF to Word converter for transforming PDF documents into editable Word format. Simply upload your PDF file, click convert, and download the DOCX instantly. Our PDF to Word converter extracts text and maintains formatting for professional editing capabilities."
+      question: "How to convert PDF to Word online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PDF to Word converter for transforming PDF documents into editable Word format. Simply upload your PDF file, click convert, and download the DOCX instantly. Our PDF to Word converter extracts text and maintains formatting for professional editing capabilities."
     },
-    {
-      question: "Does the PDF to Word converter preserve document formatting?",
-      answer: "Yes! Our advanced PDF to Word converter maintains text structure, paragraphs, basic formatting, and document layout. While complex designs may need minor adjustments, the online converter ensures your Word document retains maximum readability and editability."
-    },
+    
     {
       question: "What PDF formats can I convert to Word documents?",
       answer: "Our PDF to Word converter supports standard PDF files and converts them to .DOCX Word format for full compatibility with Microsoft Word and other word processors. You can convert text-based PDFs, scanned documents, and multi-page files up to 25MB."
     },
     {
       question: "Is the online PDF to Word conversion secure and private?",
-      answer: "Absolutely! ilovepdf.cc's PDF to Word converter uses enterprise-grade SSL encryption to protect your documents during conversion. All uploaded PDF files are processed securely and automatically deleted from our servers after conversion for complete privacy."
+      answer: "Absolutely! ilovepdf8.com's PDF to Word converter uses enterprise-grade SSL encryption to protect your documents during conversion. All uploaded PDF files are processed securely and automatically deleted from our servers after conversion for complete privacy."
     },
     {
       question: "Can I edit the converted Word document after conversion?",
       answer: "Yes! The converted Word document is fully editable in Microsoft Word, Google Docs, or any compatible word processor. You can modify text, change formatting, add content, insert images, and save changes just like any standard Word document."
     },
-    {
-      question: "How long does PDF to Word conversion take online?",
-      answer: "PDF to Word conversion typically takes 10-30 seconds depending on document size and complexity. Our optimized converter processes most PDF files instantly, making it the fastest online PDF to Word solution for immediate editing needs."
-    },
-    {
-      question: "Can I convert multiple PDF files to Word simultaneously?",
-      answer: "Currently, our PDF to Word converter processes one document at a time for optimal quality and accuracy. For multiple conversions, simply repeat the process for each PDF file you want to convert to Word format."
-    },
+    
+    
     {
       question: "Does the PDF to Word converter work on mobile devices?",
-      answer: "Yes! ilovepdf.cc's PDF to Word converter is fully optimized for mobile devices including smartphones and tablets. Convert PDF documents to Word on Android, iPhone, iPad, and any device with a web browser for convenient editing anywhere."
+      answer: "Yes! ilovepdf8.com's PDF to Word converter is fully optimized for mobile devices including smartphones and tablets. Convert PDF documents to Word on Android, iPhone, iPad, and any device with a web browser for convenient editing anywhere."
     }
   ]
 
@@ -400,22 +391,22 @@ function PdfToWordConverter() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "PDF to Word Converter Online Free - Convert PDF to DOCX | ilovepdf.cc"
+            document.title = "PDF to Word Converter Online Free - Convert PDF to DOCX | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Convert PDF to Word online free with ilovepdf.cc. Professional PDF to Word converter for transforming PDF documents to editable DOCX format. Extract text with preserved formatting." },
+              { name: "description", content: "Convert PDF to Word online free with ilovepdf8.com. Professional PDF to Word converter for transforming PDF documents to editable DOCX format. Extract text with preserved formatting." },
               { name: "keywords", content: "pdf to word, pdf to word converter, online pdf to word, pdf to docx, convert pdf to word, pdf to word online, free pdf to word converter, pdf text extraction" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF to Word Converter - Convert PDF to DOCX | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF to Word Converter - Convert PDF to DOCX | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF to Word converter for transforming PDF documents to editable Word format. Extract text and maintain formatting with our free online converter." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/pdf-to-word" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/pdf-to-word" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free PDF to Word Converter | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free PDF to Word Converter | ilovepdf8.com" },
               { name: "twitter:description", content: "Convert PDF documents to editable Word format online free. Professional PDF to Word converter with text extraction." }
             ]
             
@@ -439,7 +430,7 @@ function PdfToWordConverter() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/pdf-to-word')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/pdf-to-word')
           })()}
         </>
       )}
@@ -889,7 +880,7 @@ function PdfToWordConverter() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's PDF to Word Converter?
+              Why Choose ilovepdf8.com's PDF to Word Converter?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF to Word conversion capabilities with advanced text extraction and formatting preservation for all your editing needs
@@ -932,7 +923,7 @@ function PdfToWordConverter() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Convert PDF to Word Online with ilovepdf.cc
+              How to Convert PDF to Word Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF to Word conversion in 3 simple steps using our advanced online converter
@@ -973,33 +964,7 @@ function PdfToWordConverter() {
         </div>
       </section>
 
-      {/* PDF to Word Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF to Word Conversion for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF to Word converter serves professionals, students, and businesses with comprehensive document transformation capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
@@ -1009,7 +974,7 @@ function PdfToWordConverter() {
               Frequently Asked Questions About PDF to Word Conversion
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about converting PDF documents to Word with ilovepdf.cc's online converter
+              Everything you need to know about converting PDF documents to Word with ilovepdf8.com's online converter
             </p>
           </div>
           
@@ -1040,158 +1005,7 @@ function PdfToWordConverter() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF to Word Conversion with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF to Word Converter?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PDF to Word converter revolutionizes document editing by providing professional-grade conversion directly in your browser. Unlike traditional PDF software that requires expensive licenses and complex installations, our web-based PDF to Word converter offers instant access to powerful text extraction tools. This cloud-based approach ensures you can convert PDF documents to Word from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PDF to Word converter extracts text content while preserving document structure and basic formatting, creating fully editable DOCX files. With advanced extraction algorithms and intelligent text recognition, every converted Word document maintains readability and professional appearance, making it perfect for professionals who need to edit documents, students working on assignments, or businesses requiring content modification.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF to Word Conversion Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Advanced text extraction algorithms for accurate content recovery
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Intelligent formatting preservation and document structure maintenance
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Full DOCX compatibility with Microsoft Word and other processors
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Paragraph and text block recognition for proper document flow
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality editable output for business use
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF to Word Conversion Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PDF to Word converter utilizes cutting-edge text extraction technology to intelligently analyze PDF documents and recreate editable Word format. This sophisticated approach processes PDF content to identify text blocks, maintain paragraph structure, and preserve basic formatting elements. The converter automatically handles different content types including headers, body text, lists, and tables, ensuring optimal conversion results for each document section.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF to Word Converter Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when converting sensitive PDF documents online. ilovepdf.cc's PDF to Word converter employs enterprise-grade SSL encryption to protect your documents during the conversion process. All uploaded PDF files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're business reports, legal contracts, research papers, or personal documents, remain completely private throughout the conversion session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF to Word Conversion Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <File className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Document Optimization
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Text-based PDF files convert better than scanned documents. Ensure your PDF has selectable text for optimal Word conversion results and formatting preservation.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Edit3 className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Editing Preparation
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  The PDF to Word converter creates editable DOCX files ready for modification. Review formatting after conversion and make adjustments as needed for perfect results.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF to Word Conversion?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PDF to Word conversion, combining powerful functionality with user-friendly design. Our PDF to Word converter offers professional-grade text extraction capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF to Word conversion simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for files up to 25MB, intelligent text extraction, and instant conversion processing, our PDF to Word converter handles everything from simple document conversion to complex text extraction workflows. The combination of powerful conversion tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to convert PDF documents to Word format online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Convert PDF to Word on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF to Word converter works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop PDF to Word</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured PDF to Word conversion on Windows, Mac, and Linux computers. Professional workflow support with advanced text extraction and document processing.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile PDF to Word</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized PDF to Word conversion on smartphones and tablets. Convert PDF documents on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Converter</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PDF to Word converter instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1275,7 +1089,7 @@ function PdfToWordConverter() {
             Ready to Convert Your PDF Documents to Word?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PDF to Word conversion with ilovepdf.cc's advanced online converter. Extract text and create editable documents with secure processing and instant download.
+            Experience professional PDF to Word conversion with ilovepdf8.com's advanced online converter. Extract text and create editable documents with secure processing and instant download.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1294,7 +1108,7 @@ function PdfToWordConverter() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PDF to Word conversion tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF to Word conversion tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1377,7 +1191,7 @@ function PdfToWordConverter() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF to Word Converter. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PDF to Word Converter. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF to Word conversion professionals worldwide.
             </p>

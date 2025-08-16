@@ -82,28 +82,19 @@ function CompressPdfPage() {
   // Enhanced FAQ with compression focus
   const faqData = [
     {
-      question: "How to compress PDF files online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PDF compressor for reducing file sizes while maintaining quality. Simply upload your PDF files, choose compression level, and download the compressed PDFs instantly. Our advanced compression algorithms optimize images and remove unnecessary data without compromising document readability."
+      question: "How to compress PDF files online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PDF compressor for reducing file sizes while maintaining quality. Simply upload your PDF files, choose compression level, and download the compressed PDFs instantly. Our advanced compression algorithms optimize images and remove unnecessary data without compromising document readability."
     },
-    {
-      question: "What compression levels are available in the online PDF compressor?",
-      answer: "Our PDF compressor offers Low compression (10-30% reduction, highest quality), Medium compression (30-60% reduction, balanced quality), High compression (60-80% reduction, good quality), and Custom settings for fine-tuned compression control. Choose based on your file size and quality requirements."
-    },
-    {
-      question: "Will PDF compression affect document quality and readability?",
-      answer: "Our smart compression algorithms are designed to maintain visual quality while significantly reducing file size. The PDF compressor optimizes images, removes metadata, and applies efficient compression without affecting text readability or document structure. You can preview results before downloading."
-    },
+    
+    
     {
       question: "Can I compress large PDF files using the online compressor?",
       answer: "Yes! You can compress PDF files up to 100MB each using our online PDF compressor. The tool handles large documents efficiently, reducing file sizes for easier sharing, faster uploads, and reduced storage requirements. For enterprise needs, contact us for larger file support."
     },
-    {
-      question: "How much can I reduce PDF file size with the compressor?",
-      answer: "Compression results vary based on content type, but typical reductions range from 30-80% of original size. PDFs with many images achieve the best compression ratios. Our PDF compressor provides real-time estimates showing expected file size reduction before processing."
-    },
+    
     {
       question: "Is the online PDF compressor safe for sensitive documents?",
-      answer: "Absolutely! ilovepdf.cc's PDF compressor uses enterprise-grade SSL encryption to protect your documents during compression. All files are processed securely and automatically deleted from our servers after compression. We never store, access, or share your compressed documents."
+      answer: "Absolutely! ilovepdf8.com's PDF compressor uses enterprise-grade SSL encryption to protect your documents during compression. All files are processed securely and automatically deleted from our servers after compression. We never store, access, or share your compressed documents."
     },
     {
       question: "Can I compress multiple PDF files simultaneously?",
@@ -111,7 +102,7 @@ function CompressPdfPage() {
     },
     {
       question: "Does the PDF compressor work on mobile devices and tablets?",
-      answer: "Yes! ilovepdf.cc's PDF compressor is fully optimized for mobile devices, tablets, and desktop computers. Compress PDF files on Android phones, iPhones, iPads, and any device with a web browser. The responsive interface adapts to all screen sizes for easy compression anywhere."
+      answer: "Yes! ilovepdf8.com's PDF compressor is fully optimized for mobile devices, tablets, and desktop computers. Compress PDF files on Android phones, iPhones, iPads, and any device with a web browser. The responsive interface adapts to all screen sizes for easy compression anywhere."
     }
   ]
 
@@ -499,22 +490,22 @@ function CompressPdfPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "Compress PDF Online Free - PDF Compressor | ilovepdf.cc"
+            document.title = "Compress PDF Online Free - PDF Compressor | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Compress PDF files online free with ilovepdf.cc PDF compressor. Reduce file size by up to 80% while maintaining quality. Professional PDF compression tool with secure processing. No software required." },
-              { name: "keywords", content: "compress pdf, pdf compressor, online compress pdf, reduce pdf size, pdf compression, compress pdf online, image compressor, file compressor, ilovepdf.cc" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "description", content: "Compress PDF files online free with ilovepdf8.com PDF compressor. Reduce file size by up to 80% while maintaining quality. Professional PDF compression tool with secure processing. No software required." },
+              { name: "keywords", content: "compress pdf, pdf compressor, online compress pdf, reduce pdf size, pdf compression, compress pdf online, image compressor, file compressor, ilovepdf8.com" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF Compressor - Reduce PDF File Size | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF Compressor - Reduce PDF File Size | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF compressor for reducing file sizes online. Compress PDF documents by up to 80% while maintaining quality. Free, fast, and secure." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/compress" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/compress" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free Online PDF Compressor | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free Online PDF Compressor | ilovepdf8.com" },
               { name: "twitter:description", content: "Compress PDF files online free. Professional PDF compressor for reducing document sizes in your browser." }
             ]
             
@@ -538,7 +529,7 @@ function CompressPdfPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/compress')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/compress')
           })()}
         </>
       )}
@@ -1169,7 +1160,7 @@ function CompressPdfPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's Online PDF Compressor?
+              Why Choose ilovepdf8.com's Online PDF Compressor?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF compression capabilities with advanced file size reduction for all your document needs
@@ -1212,7 +1203,7 @@ function CompressPdfPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Compress PDF Files Online with ilovepdf.cc
+              How to Compress PDF Files Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF compression in 3 simple steps using our advanced online compressor
@@ -1253,33 +1244,7 @@ function CompressPdfPage() {
         </div>
       </section>
 
-      {/* PDF Compression Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF Compression for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF compressor serves professionals, students, and businesses with comprehensive file size reduction capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
@@ -1289,7 +1254,7 @@ function CompressPdfPage() {
               Frequently Asked Questions About PDF Compression
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about compressing PDF documents with ilovepdf.cc's online compressor
+              Everything you need to know about compressing PDF documents with ilovepdf8.com's online compressor
             </p>
           </div>
           
@@ -1320,158 +1285,7 @@ function CompressPdfPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF Compression with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF Compressor?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PDF compressor revolutionizes file size management by providing professional-grade compression directly in your browser. Unlike traditional PDF software that requires expensive licenses and complex installations, our web-based PDF compressor offers instant access to powerful compression tools. This cloud-based approach ensures you can compress PDF documents from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PDF compressor reduces file sizes by up to 80% while maintaining document integrity, making it perfect for professionals who need to share large documents, students submitting assignments, or businesses optimizing storage costs. With advanced compression algorithms and quality preservation, every compressed PDF maintains readability and professional appearance.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF Compression Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Advanced compression algorithms for optimal file size reduction
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multiple compression levels from low to high intensity
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Batch compression for processing multiple files simultaneously
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Real-time compression estimates and progress tracking
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality output maintaining document standards
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF Compression Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PDF compressor utilizes cutting-edge compression technology to intelligently reduce file sizes while preserving document quality. This sophisticated approach analyzes PDF content to optimize images, remove unnecessary metadata, and apply efficient compression algorithms. The compressor automatically handles different content types including text, graphics, and photographs, ensuring optimal compression ratios for each element type.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Compressor Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when compressing sensitive documents online. ilovepdf.cc's PDF compressor employs enterprise-grade SSL encryption to protect your documents during the compression process. All uploaded files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're financial reports, legal contracts, or personal papers, remain completely private throughout the compression session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Compression Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Minimize2 className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Effective Compression Settings
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Choose compression levels based on your needs. Use high compression for web sharing, medium for general use, and low for documents requiring highest quality. Preview results before final compression.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Shield className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Quality Optimization
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  The PDF compressor automatically optimizes image quality and removes metadata while maintaining readability. Enable web optimization for faster loading times. Download immediately after processing.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF Compression?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PDF compression, combining powerful functionality with user-friendly design. Our PDF compressor offers professional-grade compression capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF compression simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for files up to 100MB, batch processing capabilities, and real-time compression preview, our PDF compressor handles everything from simple file size reduction to complex document optimization workflows. The combination of powerful compression tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to compress PDF documents online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Compress PDF Documents on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF compressor works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop PDF Compressor</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured PDF compression on Windows, Mac, and Linux computers. Professional workflow support with advanced compression capabilities and batch processing.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile PDF Compressor</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized PDF compression on smartphones and tablets. Compress PDF files on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Compressor</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PDF compressor instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1555,7 +1369,7 @@ function CompressPdfPage() {
             Ready to Compress Your PDF Documents?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PDF compression with ilovepdf.cc's advanced online compressor. Reduce file sizes by up to 80% with secure processing and instant download.
+            Experience professional PDF compression with ilovepdf8.com's advanced online compressor. Reduce file sizes by up to 80% with secure processing and instant download.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1574,7 +1388,7 @@ function CompressPdfPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PDF compression tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF compression tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1653,7 +1467,7 @@ function CompressPdfPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF Compressor. Made with{" "}
+              © 2025 ilovepdf8.com. Professional PDF Compressor. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF compression professionals worldwide.
             </p>

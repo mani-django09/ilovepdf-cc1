@@ -72,7 +72,7 @@ function JpgToPdfPage() {
   // SEO Meta Tags Setup
   useEffect(() => {
     // Update document title and meta tags
-    document.title = "JPG to PDF Converter - Convert Images to PDF Online Free | iLovePDF.cc"
+    document.title = "JPG to PDF Converter - Convert Images to PDF Online Free | ilovepdf8.com"
     
     // Create or update meta description
     const updateMeta = (name, content) => {
@@ -96,25 +96,25 @@ function JpgToPdfPage() {
     }
 
     // SEO Meta Tags
-    updateMeta('description', 'Convert JPG to PDF online for free with iLovePDF.cc. Transform JPEG, PNG, and other images into professional PDF documents. Fast, secure, and no registration required.')
-    updateMeta('keywords', 'jpg to pdf, jpeg to pdf converter, convert jpg to pdf online, image to pdf, png to pdf, free pdf converter, online jpg to pdf, ilovepdf.cc')
-    updateMeta('author', 'iLovePDF.cc')
+    updateMeta('description', 'Convert JPG to PDF online for free with ilovepdf8.com. Transform JPEG, PNG, and other images into professional PDF documents. Fast, secure, and no registration required.')
+    updateMeta('keywords', 'jpg to pdf, jpeg to pdf converter, convert jpg to pdf online, image to pdf, png to pdf, free pdf converter, online jpg to pdf, ilovepdf8.com')
+    updateMeta('author', 'ilovepdf8.com')
     updateMeta('robots', 'index, follow')
     updateMeta('viewport', 'width=device-width, initial-scale=1.0')
 
     // Open Graph Tags
     updateProperty('og:title', 'JPG to PDF Converter - Convert Images to PDF Online Free')
-    updateProperty('og:description', 'Convert JPG to PDF online for free with iLovePDF.cc. Transform images into professional PDF documents instantly.')
+    updateProperty('og:description', 'Convert JPG to PDF online for free with ilovepdf8.com. Transform images into professional PDF documents instantly.')
     updateProperty('og:type', 'website')
-    updateProperty('og:url', 'https://ilovepdf.cc/tools/jpg-to-pdf')
-    updateProperty('og:site_name', 'iLovePDF.cc')
-    updateProperty('og:image', 'https://ilovepdf.cc/images/jpg-to-pdf-og.jpg')
+    updateProperty('og:url', 'https://ilovepdf8.com/tools/jpg-to-pdf')
+    updateProperty('og:site_name', 'ilovepdf8.com')
+    updateProperty('og:image', 'https://ilovepdf8.com/images/jpg-to-pdf-og.jpg')
 
     // Twitter Card Tags
     updateMeta('twitter:card', 'summary_large_image')
     updateMeta('twitter:title', 'JPG to PDF Converter - Convert Images to PDF Online Free')
-    updateMeta('twitter:description', 'Convert JPG to PDF online for free with iLovePDF.cc. Transform images into professional PDF documents instantly.')
-    updateMeta('twitter:image', 'https://ilovepdf.cc/images/jpg-to-pdf-og.jpg')
+    updateMeta('twitter:description', 'Convert JPG to PDF online for free with ilovepdf8.com. Transform images into professional PDF documents instantly.')
+    updateMeta('twitter:image', 'https://ilovepdf8.com/images/jpg-to-pdf-og.jpg')
 
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]')
@@ -123,15 +123,15 @@ function JpgToPdfPage() {
       canonical.rel = 'canonical'
       document.head.appendChild(canonical)
     }
-    canonical.href = 'https://ilovepdf.cc/tools/jpg-to-pdf'
+    canonical.href = 'https://ilovepdf8.com/tools/jpg-to-pdf'
 
     // Structured Data (JSON-LD)
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "WebApplication",
       "name": "JPG to PDF Converter",
-      "description": "Convert JPG to PDF online for free with iLovePDF.cc. Transform images into professional PDF documents instantly.",
-      "url": "https://ilovepdf.cc/tools/jpg-to-pdf",
+      "description": "Convert JPG to PDF online for free with ilovepdf8.com. Transform images into professional PDF documents instantly.",
+      "url": "https://ilovepdf8.com/tools/jpg-to-pdf",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "Any",
       "offers": {
@@ -141,8 +141,8 @@ function JpgToPdfPage() {
       },
       "provider": {
         "@type": "Organization",
-        "name": "iLovePDF.cc",
-        "url": "https://ilovepdf.cc"
+        "name": "ilovepdf8.com",
+        "url": "https://ilovepdf8.com"
       }
     }
 
@@ -173,8 +173,8 @@ function JpgToPdfPage() {
 
   const faqData = [
     {
-      question: "How do I convert JPG to PDF online with iLovePDF.cc?",
-      answer: "Converting JPG to PDF with iLovePDF.cc is simple: 1) Upload your JPG/JPEG images using our drag-and-drop interface, 2) Choose your PDF settings like page size, quality, and orientation, 3) Click 'Convert to PDF' and download your professional PDF document. Our online JPG to PDF converter handles multiple image formats and preserves image quality."
+      question: "How do I convert JPG to PDF online with ilovepdf8.com?",
+      answer: "Converting JPG to PDF with ilovepdf8.com is simple: 1) Upload your JPG/JPEG images using our drag-and-drop interface, 2) Choose your PDF settings like page size, quality, and orientation, 3) Click 'Convert to PDF' and download your professional PDF document. Our online JPG to PDF converter handles multiple image formats and preserves image quality."
     },
     {
       question: "Can I convert multiple JPG images to one PDF file?",
@@ -182,28 +182,19 @@ function JpgToPdfPage() {
     },
     {
       question: "What image formats does the JPG to PDF converter support?",
-      answer: "Our online converter supports JPG, JPEG, PNG, GIF, BMP, TIFF, and WebP image formats. All formats are converted to high-quality PDF documents with customizable settings. Whether you need to convert JPG to PDF, PNG to PDF, or any other image format, iLovePDF.cc handles them all seamlessly."
+      answer: "Our online converter supports JPG, JPEG, PNG, GIF, BMP, TIFF, and WebP image formats. All formats are converted to high-quality PDF documents with customizable settings. Whether you need to convert JPG to PDF, PNG to PDF, or any other image format, ilovepdf8.com handles them all seamlessly."
     },
-    {
-      question: "How can I control the image quality in my PDF conversion?",
-      answer: "iLovePDF.cc offers three quality settings: High Quality (95%) for printing and archival purposes, Medium Quality (85%) for general use with balanced file size, and Web Quality (75%) optimized for online sharing. You can also adjust compression levels and color space options for professional results."
-    },
+    
     {
       question: "What's the maximum file size for JPG to PDF conversion?",
       answer: "You can upload JPG images up to 20MB each, with a maximum of 20 images per conversion. For larger batches, simply process them in separate groups. Our online JPG to PDF converter is optimized for both small personal photos and large professional image collections."
     },
-    {
-      question: "Can I customize page size and orientation for my PDF?",
-      answer: "Absolutely! Choose from standard page sizes including A4 (international standard), Letter (US standard), Legal, A3, or Auto (which matches your original image dimensions). You can set orientation to Portrait or Landscape and control how images fit on the page - whether to fit within boundaries, fill the entire page, or maintain original size."
-    },
+    
     {
       question: "Is the online JPG to PDF converter free to use?",
-      answer: "Yes, iLovePDF.cc provides free JPG to PDF conversion with no registration required. Convert unlimited JPG files to PDF online without watermarks or restrictions. Our service is completely free for personal and professional use."
+      answer: "Yes, ilovepdf8.com provides free JPG to PDF conversion with no registration required. Convert unlimited JPG files to PDF online without watermarks or restrictions. Our service is completely free for personal and professional use."
     },
-    {
-      question: "How secure is the JPG to PDF conversion process?",
-      answer: "Your privacy and security are our top priorities. All uploaded JPG files are automatically deleted from our servers after conversion. We use SSL encryption for all data transfers, and our online JPG to PDF converter processes files locally without storing any personal information."
-    }
+    
   ]
 
   const pageSizeOptions = [
@@ -538,8 +529,8 @@ function JpgToPdfPage() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <span className="text-2xl font-bold text-gray-900">iLove</span>
-              <span className="text-2xl font-bold text-red-500">PDF</span>
-              <span className="text-sm text-gray-500 ml-1">.cc</span>
+              <span className="text-2xl font-bold text-red-500">PDF8</span>
+              <span className="text-sm text-gray-500 ml-1">.com</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -1205,7 +1196,7 @@ function JpgToPdfPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose iLovePDF.cc for JPG to PDF Conversion?
+              Why Choose ilovepdf8.com for JPG to PDF Conversion?
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Transform your images into professional PDF documents with our advanced online JPG to PDF converter. 
@@ -1308,7 +1299,7 @@ function JpgToPdfPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How to Convert JPG to PDF Online with iLovePDF.cc
+              How to Convert JPG to PDF Online with ilovepdf8.com
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Transform your JPEG images into professional PDF documents in just three simple steps. 
@@ -1397,7 +1388,7 @@ function JpgToPdfPage() {
               Frequently Asked Questions About JPG to PDF Conversion
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Get answers to common questions about converting JPG to PDF online with iLovePDF.cc. 
+              Get answers to common questions about converting JPG to PDF online with ilovepdf8.com. 
               Learn about features, security, and best practices.
             </p>
           </div>
@@ -1429,134 +1420,7 @@ function JpgToPdfPage() {
         </div>
       </section>
 
-      {/* SEO Content Section - Enhanced */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to JPG to PDF Conversion with iLovePDF.cc
-            </h2>
-            
-            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-              <h3 className="text-xl font-semibold text-blue-900 mb-3">
-                Why Convert JPG to PDF Online?
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Converting JPG to PDF with iLovePDF.cc provides numerous advantages for document management, 
-                sharing, and professional presentation. Our online JPG to PDF converter ensures universal 
-                compatibility, maintains image quality, and creates professional-looking documents suitable 
-                for business, academic, and personal use across all platforms and devices.
-              </p>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Advanced Features of Our Online JPG to PDF Converter
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                  Multiple Format Support
-                </h4>
-                <p className="text-gray-600 text-sm">
-                  Convert not just JPG to PDF, but also JPEG, PNG, GIF, BMP, TIFF, and WebP formats 
-                  with the same high-quality results and professional output.
-                </p>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                  Batch Processing
-                </h4>
-                <p className="text-gray-600 text-sm">
-                  Upload and convert up to 20 images simultaneously, perfect for creating comprehensive 
-                  photo albums, presentations, or document compilations.
-                </p>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                  Quality Control
-                </h4>
-                <p className="text-gray-600 text-sm">
-                  Choose from High (95%), Medium (85%), or Web (75%) quality settings to balance 
-                  file size and image clarity for your specific needs.
-                </p>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                  Custom Page Layouts
-                </h4>
-                <p className="text-gray-600 text-sm">
-                  Select from A4, Letter, Legal, A3, or Auto sizing with Portrait or Landscape 
-                  orientation for professional document formatting.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Best Practices for JPG to PDF Conversion
-            </h3>
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <Target className="h-5 w-5 text-yellow-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span><strong>Image Quality:</strong> Use high-resolution JPG images (300 DPI or higher) for best PDF output quality, especially for printing purposes.</span>
-                </li>
-                <li className="flex items-start">
-                  <Target className="h-5 w-5 text-yellow-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span><strong>File Organization:</strong> Arrange images in desired order before uploading, as the PDF pages will follow your upload sequence.</span>
-                </li>
-                <li className="flex items-start">
-                  <Target className="h-5 w-5 text-yellow-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span><strong>Page Settings:</strong> Choose A4 for international documents, Letter for US business documents, or Auto to preserve original dimensions.</span>
-                </li>
-                <li className="flex items-start">
-                  <Target className="h-5 w-5 text-yellow-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span><strong>Compression:</strong> Use medium compression for balanced file size and quality, or no compression for archival purposes.</span>
-                </li>
-              </ul>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Common Use Cases for JPG to PDF Conversion
-            </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Our online JPG to PDF converter at iLovePDF.cc serves diverse professional and personal needs. 
-              Create stunning photo albums by converting multiple JPG images into a single PDF document. 
-              Business professionals use our tool for compiling visual reports, creating presentation materials, 
-              and preparing marketing collateral. Students and researchers convert scanned documents, charts, 
-              and graphs from JPG to PDF format for academic submissions and research documentation.
-            </p>
-            
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
-              <h4 className="font-semibold text-green-900 mb-3">
-                Why Choose iLovePDF.cc for Online JPG to PDF Conversion?
-              </h4>
-              <p className="text-gray-700 leading-relaxed">
-                iLovePDF.cc stands out as the premier destination for JPG to PDF conversion with its combination 
-                of advanced features, security, and ease of use. Our platform processes millions of conversions 
-                monthly, trusted by users worldwide for reliable, high-quality results. With no registration 
-                required, unlimited free conversions, and support for multiple image formats, we provide the 
-                most comprehensive online JPG to PDF conversion experience available.
-              </p>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Security and Privacy in JPG to PDF Conversion
-            </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              At iLovePDF.cc, we prioritize your privacy and data security. All JPG files uploaded for PDF 
-              conversion are processed using SSL encryption and automatically deleted from our servers after 
-              processing. We never store, share, or access your personal images, ensuring complete confidentiality 
-              throughout the conversion process. Our secure infrastructure meets industry standards for data 
-              protection and privacy compliance.
-            </p>
-          </div>
-        </div>
-      </section>
-
+    
       {/* Enhanced CTA Section */}
       <section className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-600 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
@@ -1564,7 +1428,7 @@ function JpgToPdfPage() {
             Ready to Convert Your Images to Professional PDFs?
           </h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Join millions of users who trust iLovePDF.cc for fast, secure, and high-quality JPG to PDF conversion. 
+            Join millions of users who trust ilovepdf8.com for fast, secure, and high-quality JPG to PDF conversion. 
             Transform your images into professional documents in seconds – completely free!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -1667,7 +1531,7 @@ function JpgToPdfPage() {
             <div>
               <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">COMPANY</h3>
               <ul className="space-y-3 text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">About iLovePDF.cc</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">About ilovepdf8.com</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Blog & Guides</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Help Center</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Contact Support</a></li>
@@ -1678,7 +1542,7 @@ function JpgToPdfPage() {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               <p className="text-sm text-gray-400 mb-4 sm:mb-0">
-                © 2024 iLovePDF.cc. Made with{" "}
+                © 2024 ilovepdf8.com. Made with{" "}
                 <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
                 for PDF and image lovers worldwide.
               </p>

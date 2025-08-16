@@ -79,13 +79,10 @@ function WebpToPngPage() {
   // Enhanced FAQ with WebP to PNG focus
   const faqData = [
     {
-      question: "How to convert WebP to PNG online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online WebP to PNG converter for transforming modern WebP images into universally compatible PNG format. Simply upload your WebP files, choose quality settings, and convert instantly. Our WebP to PNG converter preserves image quality and transparency for perfect results."
+      question: "How to convert WebP to PNG online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online WebP to PNG converter for transforming modern WebP images into universally compatible PNG format. Simply upload your WebP files, choose quality settings, and convert instantly. Our WebP to PNG converter preserves image quality and transparency for perfect results."
     },
-    {
-      question: "What is WebP format and why convert to PNG?",
-      answer: "WebP is Google's modern image format with superior compression, but PNG offers better universal compatibility across all platforms and software. Our WebP to PNG converter ensures your images work everywhere while maintaining transparency and quality."
-    },
+    
     {
       question: "Will I lose image quality when converting WebP to PNG?",
       answer: "No! Our WebP to PNG converter preserves original image quality using lossless conversion. Since we're converting from compressed to uncompressed format, you maintain all visual quality while gaining universal compatibility and transparency support."
@@ -94,17 +91,11 @@ function WebpToPngPage() {
       question: "Can I convert multiple WebP images to PNG simultaneously?",
       answer: "Yes! Our WebP to PNG converter supports batch processing of up to 20 WebP images at once. Each file can be up to 25MB, making it perfect for converting entire collections of WebP images to PNG format efficiently."
     },
-    {
-      question: "Are transparency and alpha channels preserved in PNG conversion?",
-      answer: "Absolutely! PNG format natively supports transparency, so all alpha channels and transparent areas in your WebP images are perfectly preserved during conversion. Our WebP to PNG converter maintains all transparency information."
-    },
-    {
-      question: "Does the WebP to PNG converter handle animated WebP files?",
-      answer: "Our WebP to PNG converter processes animated WebP files by extracting the first frame as a static PNG image. For animated content, consider keeping WebP format or converting to GIF for animation support."
-    },
+    
+    
     {
       question: "Is the online WebP to PNG converter secure for sensitive images?",
-      answer: "Yes! ilovepdf.cc's WebP to PNG converter uses enterprise-grade SSL encryption to protect your images during conversion. All uploaded WebP files are automatically deleted from our servers after processing for complete privacy and security."
+      answer: "Yes! ilovepdf8.com's WebP to PNG converter uses enterprise-grade SSL encryption to protect your images during conversion. All uploaded WebP files are automatically deleted from our servers after processing for complete privacy and security."
     },
     {
       question: "Does the WebP to PNG converter work on mobile devices?",
@@ -473,22 +464,22 @@ function WebpToPngPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "WebP to PNG Converter Online Free - Convert WebP Images to PNG | ilovepdf.cc"
+            document.title = "WebP to PNG Converter Online Free - Convert WebP Images to PNG | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Convert WebP images to PNG online free with ilovepdf.cc WebP to PNG converter. Preserve transparency and quality while ensuring universal compatibility. No software required." },
+              { name: "description", content: "Convert WebP images to PNG online free with ilovepdf8.com WebP to PNG converter. Preserve transparency and quality while ensuring universal compatibility. No software required." },
               { name: "keywords", content: "webp to png, webp to png converter, online webp to png, convert webp to png, webp png converter, webp to png online free" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free WebP to PNG Converter - Universal Image Compatibility | ilovepdf.cc" },
+              { property: "og:title", content: "Free WebP to PNG Converter - Universal Image Compatibility | ilovepdf8.com" },
               { property: "og:description", content: "Professional WebP to PNG converter for universal image compatibility. Preserve transparency and quality with instant batch conversion." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/webp-to-png" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/webp-to-png" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free WebP to PNG Converter Tool | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free WebP to PNG Converter Tool | ilovepdf8.com" },
               { name: "twitter:description", content: "Convert WebP images to PNG online free. Professional WebP to PNG converter with transparency preservation and quality settings." }
             ]
             
@@ -512,7 +503,7 @@ function WebpToPngPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/webp-to-png')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/webp-to-png')
           })()}
         </>
       )}
@@ -1125,7 +1116,7 @@ function WebpToPngPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's WebP to PNG Converter?
+              Why Choose ilovepdf8.com's WebP to PNG Converter?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional WebP to PNG conversion capabilities with advanced quality preservation and universal compatibility for all your image conversion needs
@@ -1168,7 +1159,7 @@ function WebpToPngPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Convert WebP Images to PNG with ilovepdf.cc
+              How to Convert WebP Images to PNG with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional WebP to PNG conversion in 3 simple steps using our advanced online converter
@@ -1209,33 +1200,7 @@ function WebpToPngPage() {
         </div>
       </section>
 
-      {/* WebP to PNG Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional WebP to PNG Conversion for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's WebP to PNG converter serves photographers, developers, and businesses with comprehensive image compatibility and quality preservation
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
@@ -1244,7 +1209,7 @@ function WebpToPngPage() {
               Frequently Asked Questions About WebP to PNG Conversion
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about converting WebP images to PNG with ilovepdf.cc's online converter
+              Everything you need to know about converting WebP images to PNG with ilovepdf8.com's online converter
             </p>
           </div>
           
@@ -1275,158 +1240,7 @@ function WebpToPngPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online WebP to PNG Conversion with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online WebP to PNG Converter?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online WebP to PNG converter revolutionizes image compatibility by providing professional-grade conversion directly in your browser. Unlike traditional software that requires expensive licenses and complex installations, our web-based WebP to PNG converter offers instant access to powerful image conversion tools. This cloud-based approach ensures you can convert WebP images to PNG from any device, anywhere, without compromising on functionality or quality.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online WebP to PNG converter transforms modern WebP images while preserving quality and transparency. With advanced conversion algorithms and intelligent processing, every PNG maintains crisp image quality and universal compatibility, making it perfect for photographers needing universal support, web developers ensuring broad compatibility, or businesses requiring versatile image formats.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional WebP to PNG Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Batch WebP to PNG conversion with up to 20 files simultaneously
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Perfect transparency preservation with alpha channel support
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Quality preservation with lossless conversion options
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Universal compatibility across all platforms and devices
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Advanced color profile management and optimization
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced WebP to PNG Conversion Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our WebP to PNG converter utilizes cutting-edge image processing technology to intelligently analyze WebP files and create optimized PNG images. This sophisticated approach processes image content to maintain color accuracy, preserve transparency effects, and ensure optimal compatibility. The converter automatically handles different compression levels and maintains visual fidelity while ensuring the resulting PNG files work perfectly across all platforms and applications.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              WebP to PNG Converter Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when processing sensitive WebP images online. ilovepdf.cc's WebP to PNG converter employs enterprise-grade SSL encryption to protect your images during the conversion process. All uploaded WebP files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential images, whether they're business graphics, personal photographs, artwork, or proprietary designs, remain completely private throughout the conversion session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              WebP to PNG Conversion Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <RefreshCw className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Conversion Optimization
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  For best results, use lossless quality settings when converting WebP to PNG to maintain highest image quality. Enable transparency preservation if your WebP images contain alpha channels or transparent areas.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Globe className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Compatibility Benefits
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  PNG format ensures universal compatibility across all devices, browsers, and software applications. Perfect for legacy systems, printing, and professional workflows requiring broad support.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for WebP to PNG Conversion?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online WebP to PNG conversion, combining powerful functionality with user-friendly design. Our WebP to PNG converter offers professional-grade image processing capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes WebP to PNG conversion simple for beginners while providing the advanced customization options that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for batch conversion, transparency preservation, quality control, and instant processing, our WebP to PNG converter handles everything from simple format conversion to complex image workflow requirements. The combination of powerful conversion tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to convert WebP images to PNG format online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Convert WebP to PNG on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's WebP to PNG converter works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop WebP to PNG</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured WebP to PNG conversion on Windows, Mac, and Linux computers. Professional workflow support with advanced quality settings and batch processing capabilities.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile WebP to PNG</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized WebP to PNG conversion on smartphones and tablets. Convert images on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Converter</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the WebP to PNG converter instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1510,7 +1324,7 @@ function WebpToPngPage() {
             Ready to Convert Your WebP Images to PNG?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional WebP to PNG conversion with ilovepdf.cc's advanced online converter. Preserve transparency and quality while ensuring universal compatibility.
+            Experience professional WebP to PNG conversion with ilovepdf8.com's advanced online converter. Preserve transparency and quality while ensuring universal compatibility.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1529,7 +1343,7 @@ function WebpToPngPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free WebP to PNG conversion tools • No registration required • Secure processing on ilovepdf.cc
+            Free WebP to PNG conversion tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1612,7 +1426,7 @@ function WebpToPngPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional WebP to PNG Converter Tool. Made with{" "}
+              © 2024 ilovepdf8.com. Professional WebP to PNG Converter Tool. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for WebP to PNG conversion professionals worldwide.
             </p>

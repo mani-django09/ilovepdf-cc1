@@ -1,14 +1,14 @@
-# Robots.txt for ilovepdf.cc
+# Robots.txt for ilovepdf8.com
 # Allow all crawlers access to all content
 
 User-agent: *
 Allow: /
 
 # Sitemap locations
-Sitemap: https://ilovepdf.cc/sitemap.xml
-Sitemap: https://ilovepdf.cc/sitemap-pages.xml
-Sitemap: https://ilovepdf.cc/sitemap-tools.xml
-Sitemap: https://ilovepdf.cc/sitemap-blog.xml
+Sitemap: https://ilovepdf8.com/sitemap.xml
+Sitemap: https://ilovepdf8.com/sitemap-pages.xml
+Sitemap: https://ilovepdf8.com/sitemap-tools.xml
+Sitemap: https://ilovepdf8.com/sitemap-blog.xml
 
 # Crawl delay (optional - be nice to servers)
 Crawl-delay: 1
@@ -32,4 +32,4 @@ Allow: /*.svg
 Allow: /*.webp
 
 # Host directive (helps with canonical domain)
-Host: https://ilovepdf.cc
+Host: https://ilovepdf8.com

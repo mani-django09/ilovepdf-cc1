@@ -65,11 +65,11 @@ function AboutUs() {
   return (
     <div className="min-h-screen bg-white">
       {/* SEO Meta Tags */}
-      <title>About Us - ilovepdf.cc | Free PDF Tools for Everyone</title>
-      <meta name="description" content="Learn about ilovepdf.cc's mission to provide free, fast, and secure PDF tools for everyone. Trusted by 10M+ users worldwide since 2020." />
-      <meta name="keywords" content="about ilovepdf.cc, pdf tools company, free pdf software, online document processing" />
+      <title>About Us - ilovepdf8.com | Free PDF Tools for Everyone</title>
+      <meta name="description" content="Learn about ilovepdf8.com's mission to provide free, fast, and secure PDF tools for everyone. Trusted by 10M+ users worldwide since 2020." />
+      <meta name="keywords" content="about ilovepdf8.com, pdf tools company, free pdf software, online document processing" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://ilovepdf.cc/about" />
+      <link rel="canonical" href="https://ilovepdf8.com/about" />
 
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
@@ -99,7 +99,7 @@ function AboutUs() {
               <Heart className="h-10 w-10" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              About ilovepdf.cc
+              About ilovepdf8.com
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               We're on a mission to make PDF processing simple, fast, and accessible to everyone. 
@@ -131,7 +131,7 @@ function AboutUs() {
                   Our Mission
                 </h2>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  At ilovepdf.cc, we believe that powerful PDF tools shouldn't come with a price tag or complicated software installations. 
+                  At ilovepdf8.com, we believe that powerful PDF tools shouldn't come with a price tag or complicated software installations. 
                   Our mission is to democratize document processing by providing professional-grade PDF tools that are:
                 </p>
                 <ul className="space-y-3">
@@ -187,7 +187,7 @@ function AboutUs() {
                 What Drives Us
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Our core values guide every decision we make and every feature we build at ilovepdf.cc.
+                Our core values guide every decision we make and every feature we build at ilovepdf8.com.
               </p>
             </div>
             
@@ -213,7 +213,7 @@ function AboutUs() {
                 Our Journey
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                From a simple idea to serving millions of users worldwide - here's how ilovepdf.cc evolved.
+                From a simple idea to serving millions of users worldwide - here's how ilovepdf8.com evolved.
               </p>
             </div>
             
@@ -255,7 +255,7 @@ function AboutUs() {
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Why Choose ilovepdf.cc?
+                Why Choose ilovepdf8.com?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We're not just another PDF tool provider. Here's what makes us different.
@@ -331,7 +331,7 @@ function AboutUs() {
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                The Team Behind ilovepdf.cc
+                The Team Behind ilovepdf8.com
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We're a passionate team of developers, designers, and PDF enthusiasts working 
@@ -377,7 +377,7 @@ function AboutUs() {
                 We're always looking for talented individuals who share our passion for creating amazing user experiences.
               </p>
               <a 
-                href="mailto:careers@ilovepdf.cc" 
+                href="mailto:careers@ilovepdf8.com" 
                 className="inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
               >
                 View Open Positions
@@ -395,7 +395,7 @@ function AboutUs() {
                 Our Commitment to You
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                These aren't just promises - they're the foundation of everything we do at ilovepdf.cc.
+                These aren't just promises - they're the foundation of everything we do at ilovepdf8.com.
               </p>
             </div>
             
@@ -435,7 +435,7 @@ function AboutUs() {
                   <h3 className="text-xl font-semibold text-gray-900">Universal Accessibility</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  No matter where you are or what device you're using, ilovepdf.cc works. 
+                  No matter where you are or what device you're using, ilovepdf8.com works. 
                   We're committed to providing consistent experiences across all platforms.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
@@ -516,7 +516,7 @@ function AboutUs() {
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                ilovepdf.cc by the Numbers
+                ilovepdf8.com by the Numbers
               </h2>
               <p className="text-lg text-gray-600">
                 Here's what we've accomplished together since our launch.
@@ -575,7 +575,7 @@ function AboutUs() {
               Ready to Experience the Difference?
             </h2>
             <p className="text-xl text-red-100 mb-8">
-              Join millions of users who trust ilovepdf.cc for their daily PDF processing needs. 
+              Join millions of users who trust ilovepdf8.com for their daily PDF processing needs. 
               It's free, fast, and secure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -595,7 +595,7 @@ function AboutUs() {
               </a>
             </div>
             <p className="text-red-100 text-sm">
-              Have questions or feedback? We'd love to hear from you at hello@ilovepdf.cc
+              Have questions or feedback? We'd love to hear from you at hello@ilovepdf8.com
             </p>
           </div>
         </section>
@@ -608,7 +608,7 @@ function AboutUs() {
                 href="/" 
                 className="text-red-500 hover:text-red-600 font-medium transition-colors"
               >
-                ← Back to ilovepdf.cc
+                ← Back to ilovepdf8.com
               </a>
               <div className="flex gap-4 text-sm">
                 <a 

@@ -86,28 +86,19 @@ function PdfSplitPage() {
   // Enhanced FAQ with PDF split focus
   const faqData = [
     {
-      question: "How to split PDF files online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PDF splitter for dividing PDF documents into separate files. Simply upload your PDF file, choose split method (individual pages, ranges, or split in half), and download the split PDFs instantly. Our PDF splitter maintains original quality and formatting."
+      question: "How to split PDF files online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PDF splitter for dividing PDF documents into separate files. Simply upload your PDF file, choose split method (individual pages, ranges, or split in half), and download the split PDFs instantly. Our PDF splitter maintains original quality and formatting."
     },
-    {
-      question: "What PDF split methods are available in the online splitter?",
-      answer: "Our PDF splitter offers three methods: Individual Pages (each page becomes a separate PDF), Split in Half (divide PDF into two equal parts), and Custom Ranges (extract specific page ranges). Choose the method that best fits your document organization needs."
-    },
+    
     {
       question: "Can I split specific page ranges from a PDF document?",
       answer: "Yes! Choose 'Custom Ranges' in our PDF splitter and specify which pages to extract. For example, enter '1-5' to get pages 1 through 5, or '1,3,7' to get specific pages only. This gives you precise control over PDF splitting."
     },
-    {
-      question: "Will the PDF splitter preserve document quality and formatting?",
-      answer: "Absolutely! Our online PDF splitter maintains the original quality, formatting, fonts, images, and layout. The split PDF files are identical in quality to the original document, ensuring professional results for all your split documents."
-    },
-    {
-      question: "What's the maximum PDF file size for online splitting?",
-      answer: "Our PDF splitter supports files up to 50MB in size. This handles most business documents, academic papers, and reports efficiently. For larger files, consider using our PDF compression tool first to reduce file size before splitting."
-    },
+    
+    
     {
       question: "Is the online PDF splitter secure for sensitive documents?",
-      answer: "Yes! ilovepdf.cc's PDF splitter uses enterprise-grade SSL encryption to protect your documents during processing. All uploaded PDF files are automatically deleted from our servers after splitting for complete privacy and security."
+      answer: "Yes! ilovepdf8.com's PDF splitter uses enterprise-grade SSL encryption to protect your documents during processing. All uploaded PDF files are automatically deleted from our servers after splitting for complete privacy and security."
     },
     {
       question: "Can I split password-protected PDF files?",
@@ -115,7 +106,7 @@ function PdfSplitPage() {
     },
     {
       question: "Does the PDF splitter work on mobile devices and tablets?",
-      answer: "Yes! ilovepdf.cc's PDF splitter is fully optimized for mobile devices including smartphones and tablets. Split PDF documents on Android, iPhone, iPad, and any device with a web browser for convenient document management anywhere."
+      answer: "Yes! ilovepdf8.com's PDF splitter is fully optimized for mobile devices including smartphones and tablets. Split PDF documents on Android, iPhone, iPad, and any device with a web browser for convenient document management anywhere."
     }
   ]
 
@@ -491,22 +482,22 @@ function PdfSplitPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "Split PDF Online Free - PDF Splitter Tool | ilovepdf.cc"
+            document.title = "Split PDF Online Free - PDF Splitter Tool | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Split PDF files online free with ilovepdf.cc PDF splitter. Extract pages, divide documents into sections, and organize PDF content with professional quality preservation. No software required." },
+              { name: "description", content: "Split PDF files online free with ilovepdf8.com PDF splitter. Extract pages, divide documents into sections, and organize PDF content with professional quality preservation. No software required." },
               { name: "keywords", content: "split pdf, pdf splitter, online split pdf, extract pdf pages, divide pdf, pdf split tool, separate pdf pages, split pdf online free" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF Splitter - Extract Pages and Divide PDFs | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF Splitter - Extract Pages and Divide PDFs | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF splitter for dividing documents into separate files. Extract specific pages or ranges with quality preservation and secure processing." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/split" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/split" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free PDF Splitter Tool | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free PDF Splitter Tool | ilovepdf8.com" },
               { name: "twitter:description", content: "Split PDF documents online free. Professional PDF splitter with page extraction and document organization." }
             ]
             
@@ -530,7 +521,7 @@ function PdfSplitPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/split')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/split')
           })()}
         </>
       )}
@@ -1172,7 +1163,7 @@ function PdfSplitPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's PDF Splitter?
+              Why Choose ilovepdf8.com's PDF Splitter?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF splitting capabilities with advanced page extraction and document organization for all your splitting needs
@@ -1215,7 +1206,7 @@ function PdfSplitPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Split PDF Files Online with ilovepdf.cc
+              How to Split PDF Files Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF splitting in 3 simple steps using our advanced online splitter
@@ -1256,33 +1247,7 @@ function PdfSplitPage() {
         </div>
       </section>
 
-      {/* PDF Split Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF Splitting for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF splitter serves professionals, students, and businesses with comprehensive document organization and page extraction capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
@@ -1292,7 +1257,7 @@ function PdfSplitPage() {
               Frequently Asked Questions About PDF Splitting
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about splitting PDF documents with ilovepdf.cc's online splitter
+              Everything you need to know about splitting PDF documents with ilovepdf8.com's online splitter
             </p>
           </div>
           
@@ -1323,158 +1288,7 @@ function PdfSplitPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF Splitting with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF Splitter?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PDF splitter revolutionizes document organization by providing professional-grade splitting directly in your browser. Unlike traditional PDF software that requires expensive licenses and complex installations, our web-based PDF splitter offers instant access to powerful document organization tools. This cloud-based approach ensures you can split PDF documents from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PDF splitter extracts pages while preserving document quality and formatting, creating organized separate files. With advanced splitting algorithms and intelligent page extraction, every split PDF maintains professional appearance and functionality, making it perfect for professionals who need document organization, students working on research, or businesses requiring content distribution.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF Splitting Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multiple splitting methods for flexible document organization
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Custom page range extraction with precise control
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Quality preservation and formatting maintenance
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Individual page splitting and batch extraction
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality output for business use
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF Splitting Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PDF splitter utilizes cutting-edge document processing technology to intelligently analyze PDF documents and extract pages with precision. This sophisticated approach processes PDF content to maintain document integrity, preserve formatting elements, and ensure quality output. The splitter automatically handles different content types including text, images, tables, and graphics, ensuring optimal splitting results for each document section.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Splitter Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when processing sensitive PDF documents online. ilovepdf.cc's PDF splitter employs enterprise-grade SSL encryption to protect your documents during the splitting process. All uploaded PDF files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're business reports, legal contracts, academic papers, or personal documents, remain completely private throughout the splitting session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Splitting Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Scissors className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Splitting Optimization
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Plan your splitting strategy before processing. Consider logical content breaks, page ranges, and intended use for optimal document organization and user experience.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Settings className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Method Selection
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  Choose the appropriate splitting method for your needs. Individual pages for maximum flexibility, custom ranges for specific sections, or half-split for simple division.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF Splitting?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PDF splitting, combining powerful functionality with user-friendly design. Our PDF splitter offers professional-grade document organization capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF splitting simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for files up to 50MB, multiple splitting methods, and instant processing, our PDF splitter handles everything from simple page extraction to complex document organization workflows. The combination of powerful splitting tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to split PDF documents online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Split PDF Files on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF splitter works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop PDF Splitting</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured PDF splitting on Windows, Mac, and Linux computers. Professional workflow support with advanced page extraction and document organization.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile PDF Splitting</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized PDF splitting on smartphones and tablets. Split PDF documents on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Splitter</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PDF splitter instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1558,7 +1372,7 @@ function PdfSplitPage() {
             Ready to Split Your PDF Documents?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PDF splitting with ilovepdf.cc's advanced online splitter. Extract pages and organize documents with secure processing and instant download.
+            Experience professional PDF splitting with ilovepdf8.com's advanced online splitter. Extract pages and organize documents with secure processing and instant download.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1577,7 +1391,7 @@ function PdfSplitPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PDF splitting tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF splitting tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1660,7 +1474,7 @@ function PdfSplitPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF Splitter Tool. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PDF Splitter Tool. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF splitting professionals worldwide.
             </p>

@@ -283,7 +283,7 @@ app.post('/api/contact', contactLimiter, validateContactForm, async (req, res) =
               </div>
               
               <div style="text-align: center; margin: 30px 0;">
-                <a href="https://ilovepdf.cc" 
+                <a href="https://ilovepdf8.com" 
                    style="display: inline-block; background: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">
                   🔙 Back to iLovePDF
                 </a>
@@ -298,7 +298,7 @@ app.post('/api/contact', contactLimiter, validateContactForm, async (req, res) =
           </div>
           
           <div style="text-align: center; margin-top: 20px; color: #6c757d; font-size: 12px;">
-            <p>This is an automated response from ilovepdf.cc</p>
+            <p>This is an automated response from ilovepdf8.com</p>
           </div>
         </body>
         </html>

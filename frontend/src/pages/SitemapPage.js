@@ -89,7 +89,7 @@ function SitemapPage() {
       icon: <Info className="h-6 w-6" />,
       description: "Learn more about our platform and get help",
       links: [
-        { title: "About ilovepdf.cc", href: "/about", description: "Learn about our mission and team" },
+        { title: "About ilovepdf8.com", href: "/about", description: "Learn about our mission and team" },
         { title: "Help Center", href: "/help", description: "Find answers to common questions" },
         { title: "FAQ", href: "/faq", description: "Frequently asked questions" },
         { title: "Contact Us", href: "/contact", description: "Get in touch with our support team" },
@@ -141,13 +141,13 @@ function SitemapPage() {
       {typeof document !== 'undefined' && (
         <>
           {(() => {
-            document.title = "Sitemap - All PDF Tools and Pages | ilovepdf.cc"
+            document.title = "Sitemap - All PDF Tools and Pages | ilovepdf8.com"
             
             const metaTags = [
-              { name: "description", content: "Complete sitemap of ilovepdf.cc with all PDF tools, image conversion tools, and resources. Find merge PDF, split PDF, compress PDF, and more." },
+              { name: "description", content: "Complete sitemap of ilovepdf8.com with all PDF tools, image conversion tools, and resources. Find merge PDF, split PDF, compress PDF, and more." },
               { name: "robots", content: "index, follow" },
-              { property: "og:title", content: "Sitemap - All PDF Tools and Pages | ilovepdf.cc" },
-              { property: "og:description", content: "Complete sitemap with all PDF tools and resources available on ilovepdf.cc" }
+              { property: "og:title", content: "Sitemap - All PDF Tools and Pages | ilovepdf8.com" },
+              { property: "og:description", content: "Complete sitemap with all PDF tools and resources available on ilovepdf8.com" }
             ]
             
             metaTags.forEach(tag => {
@@ -232,7 +232,7 @@ function SitemapPage() {
             Sitemap - All PDF Tools and Resources
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            Complete directory of all PDF tools, image conversion tools, and resources available on ilovepdf.cc. 
+            Complete directory of all PDF tools, image conversion tools, and resources available on ilovepdf8.com. 
             Find exactly what you need for your document processing requirements.
           </p>
           <Link
@@ -340,7 +340,7 @@ function SitemapPage() {
                 <span className="text-xl font-bold text-red-500">PDF</span>
               </Link>
               <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                Complete sitemap of all PDF tools and resources available on ilovepdf.cc. Find everything you need for document processing.
+                Complete sitemap of all PDF tools and resources available on ilovepdf8.com. Find everything you need for document processing.
               </p>
             </div>
 
@@ -387,7 +387,7 @@ function SitemapPage() {
 
           <div className="border-t border-gray-200 mt-12 pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Made with{" "}
+              © 2024 ilovepdf8.com. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF lovers worldwide.
             </p>

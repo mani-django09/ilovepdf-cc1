@@ -80,22 +80,22 @@ function PdfToPngConverter() {
   // Enhanced SEO Meta Tags
   if (typeof document !== 'undefined') {
     // Set document title properly
-    document.title = "PDF to PNG Converter Online Free - Convert PDF to PNG Images | ilovepdf.cc"
+    document.title = "PDF to PNG Converter Online Free - Convert PDF to PNG Images | ilovepdf8.com"
     
     // Set meta tags
     const metaTags = [
-      { name: "description", content: "Convert PDF to PNG online free with ilovepdf.cc. Professional PDF to PNG converter for extracting pages as high-quality images with custom DPI settings. Extract PDF pages to PNG format instantly." },
+      { name: "description", content: "Convert PDF to PNG online free with ilovepdf8.com. Professional PDF to PNG converter for extracting pages as high-quality images with custom DPI settings. Extract PDF pages to PNG format instantly." },
       { name: "keywords", content: "pdf to png, pdf to png converter, online pdf to png, convert pdf to png, pdf to png online free, extract pdf pages, pdf to image, pdf page to png" },
-      { name: "author", content: "ilovepdf.cc" },
+      { name: "author", content: "ilovepdf8.com" },
       { name: "robots", content: "index, follow" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-      { property: "og:title", content: "Free Online PDF to PNG Converter - Extract PDF Pages as PNG Images | ilovepdf.cc" },
+      { property: "og:title", content: "Free Online PDF to PNG Converter - Extract PDF Pages as PNG Images | ilovepdf8.com" },
       { property: "og:description", content: "Professional PDF to PNG converter for extracting document pages as high-quality PNG images. Custom DPI settings, transparency support, and batch conversion." },
-      { property: "og:url", content: "https://ilovepdf.cc/tools/pdf-to-png" },
+      { property: "og:url", content: "https://ilovepdf8.com/tools/pdf-to-png" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "ilovepdf.cc" },
+      { property: "og:site_name", content: "ilovepdf8.com" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Free PDF to PNG Converter | ilovepdf.cc" },
+      { name: "twitter:title", content: "Free PDF to PNG Converter | ilovepdf8.com" },
       { name: "twitter:description", content: "Convert PDF documents to PNG images online free. Professional PDF to PNG converter with quality settings." }
     ]
     
@@ -119,7 +119,7 @@ function PdfToPngConverter() {
       canonical.setAttribute('rel', 'canonical')
       document.head.appendChild(canonical)
     }
-    canonical.setAttribute('href', 'https://ilovepdf.cc/tools/pdf-to-png')
+    canonical.setAttribute('href', 'https://ilovepdf8.com/tools/pdf-to-png')
   }
 
   // Convert tools for dropdown
@@ -137,32 +137,23 @@ function PdfToPngConverter() {
   // Enhanced FAQ with PDF to PNG focus
   const faqData = [
     {
-      question: "How to convert PDF to PNG online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PDF to PNG converter for extracting PDF pages as high-quality PNG images. Simply upload your PDF file, choose quality settings like DPI and transparency, select pages to convert, and download PNG images instantly. Our PDF to PNG converter maintains image quality with customizable settings."
+      question: "How to convert PDF to PNG online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PDF to PNG converter for extracting PDF pages as high-quality PNG images. Simply upload your PDF file, choose quality settings like DPI and transparency, select pages to convert, and download PNG images instantly. Our PDF to PNG converter maintains image quality with customizable settings."
     },
-    {
-      question: "What PNG quality settings are available in the PDF to PNG converter?",
-      answer: "Our PDF to PNG converter offers multiple quality options: High Quality (300 DPI) for printing, Medium Quality (150 DPI) for general use, Web Quality (72 DPI) for online use, and Professional (600 DPI) for premium printing. Choose the DPI setting that best fits your PDF to PNG conversion needs."
-    },
+    
     {
       question: "Can I convert specific pages from PDF to PNG format?",
       answer: "Yes! Our PDF to PNG converter allows you to convert all pages or specify custom page ranges. For example, enter '1-5' to convert pages 1 through 5 to PNG, or '1,3,5' to convert specific pages only. This gives you precise control over PDF to PNG extraction."
     },
-    {
-      question: "Does the PDF to PNG converter preserve transparency and image quality?",
-      answer: "Absolutely! Our PDF to PNG converter can preserve transparency from PDF files when enabled, maintaining alpha channels for professional results. The converter uses lossless PNG compression to ensure maximum image quality preservation during PDF to PNG conversion."
-    },
+    
     {
       question: "What's the maximum PDF file size for PNG conversion?",
       answer: "Our PDF to PNG converter supports files up to 50MB per PDF, with batch conversion of up to 10 files simultaneously. Total batch size limit is 200MB for optimal PDF to PNG processing speed and quality."
     },
-    {
-      question: "How are PNG images organized after PDF to PNG conversion?",
-      answer: "Each PDF page becomes a separate PNG file, numbered sequentially (page-1.png, page-2.png, etc.). When converting multiple PDFs to PNG, files are organized in separate folders within a ZIP archive for easy download and organization."
-    },
+    
     {
       question: "Is the online PDF to PNG converter secure for sensitive documents?",
-      answer: "Yes! ilovepdf.cc's PDF to PNG converter uses enterprise-grade SSL encryption to protect your documents during PNG conversion. All uploaded PDF files are automatically deleted from our servers after conversion for complete privacy and security."
+      answer: "Yes! ilovepdf8.com's PDF to PNG converter uses enterprise-grade SSL encryption to protect your documents during PNG conversion. All uploaded PDF files are automatically deleted from our servers after conversion for complete privacy and security."
     },
     {
       question: "Does the PDF to PNG converter work on mobile devices?",
@@ -1262,7 +1253,7 @@ function PdfToPngConverter() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's PDF to PNG Converter?
+              Why Choose ilovepdf8.com's PDF to PNG Converter?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF to PNG conversion capabilities with advanced image extraction and custom quality settings for all your PNG conversion needs
@@ -1305,7 +1296,7 @@ function PdfToPngConverter() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Convert PDF to PNG Online with ilovepdf.cc
+              How to Convert PDF to PNG Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF to PNG conversion in 3 simple steps using our advanced online converter
@@ -1346,34 +1337,7 @@ function PdfToPngConverter() {
         </div>
       </section>
 
-      {/* PDF to PNG Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF to PNG Conversion for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF to PNG converter serves professionals, designers, and businesses with comprehensive image extraction capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
@@ -1382,7 +1346,7 @@ function PdfToPngConverter() {
               Frequently Asked Questions About PDF to PNG Conversion
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about converting PDF documents to PNG images with ilovepdf.cc's online converter
+              Everything you need to know about converting PDF documents to PNG images with ilovepdf8.com's online converter
             </p>
           </div>
           
@@ -1413,111 +1377,7 @@ function PdfToPngConverter() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF to PNG Conversion with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF to PNG Converter?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PDF to PNG converter revolutionizes image extraction by providing professional-grade conversion directly in your browser. Unlike traditional PDF software that requires expensive licenses and complex installations, our web-based PDF to PNG converter offers instant access to powerful image extraction tools. This cloud-based approach ensures you can convert PDF documents to PNG from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PDF to PNG converter extracts pages while preserving image quality and transparency, creating high-resolution PNG files. With advanced extraction algorithms and intelligent image processing, every converted PNG maintains professional appearance and functionality, making it perfect for professionals who need image extraction, designers working on graphics, or businesses requiring visual content.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF to PNG Conversion Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Advanced image extraction algorithms for accurate PNG conversion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Custom DPI settings from 72 to 600 DPI for all use cases
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Transparency preservation and alpha channel support
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Flexible page range selection and batch processing
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multiple color space options for different applications
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality PNG output for commercial use
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF to PNG Conversion Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PDF to PNG converter utilizes cutting-edge image processing technology to intelligently analyze PDF documents and extract pages with maximum quality. This sophisticated approach processes PDF content to identify visual elements, maintain image integrity, and preserve transparency information. The converter automatically handles different content types including text, graphics, images, and vector elements, ensuring optimal PNG output for each document page.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF to PNG Converter Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when processing sensitive PDF documents online. ilovepdf.cc's PDF to PNG converter employs enterprise-grade SSL encryption to protect your documents during the conversion process. All uploaded PDF files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're business presentations, design portfolios, technical drawings, or personal documents, remain completely private throughout the PNG conversion session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF to PNG Conversion Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <ImageIcon className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Quality Optimization
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Choose appropriate DPI settings based on intended use. Use 72 DPI for web, 150-300 DPI for general use, and 600 DPI for professional printing applications.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Palette className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Color Management
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  Select RGB color space for digital use, CMYK for print applications, or grayscale for document archiving. Enable transparency preservation when needed.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF to PNG Conversion?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PDF to PNG conversion, combining powerful functionality with user-friendly design. Our PDF to PNG converter offers professional-grade image extraction capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF to PNG conversion simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for files up to 50MB per document, custom DPI settings, transparency preservation, and batch processing of up to 10 files, our PDF to PNG converter handles everything from simple image extraction to complex graphic design workflows. The combination of powerful conversion tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to convert PDF documents to PNG format online.
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Device Compatibility Section */}
       <section className="py-12 lg:py-16 bg-white">
@@ -1527,7 +1387,7 @@ function PdfToPngConverter() {
               Convert PDF to PNG on Any Device
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF to PNG converter works seamlessly across all devices and platforms for ultimate flexibility
+              ilovepdf8.com's PDF to PNG converter works seamlessly across all devices and platforms for ultimate flexibility
             </p>
           </div>
           
@@ -1648,7 +1508,7 @@ function PdfToPngConverter() {
             Ready to Convert Your PDF Documents to PNG?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PDF to PNG conversion with ilovepdf.cc's advanced online converter. Extract high-quality PNG images with custom DPI settings and secure processing.
+            Experience professional PDF to PNG conversion with ilovepdf8.com's advanced online converter. Extract high-quality PNG images with custom DPI settings and secure processing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1667,7 +1527,7 @@ function PdfToPngConverter() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PDF to PNG conversion tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF to PNG conversion tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1750,7 +1610,7 @@ function PdfToPngConverter() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF to PNG Converter. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PDF to PNG Converter. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF to PNG conversion professionals worldwide.
             </p>

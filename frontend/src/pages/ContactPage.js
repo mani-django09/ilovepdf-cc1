@@ -200,7 +200,7 @@ function ContactUs() {
       answer: "Currently, we provide support primarily through email to ensure we can give detailed, documented responses to your questions."
     },
     {
-      question: "Can I suggest new features for ilovepdf.cc?",
+      question: "Can I suggest new features for ilovepdf8.com?",
       answer: "Absolutely! We love hearing feature suggestions from our users. Please use the 'Feature Request' category when contacting us."
     }
   ]
@@ -553,7 +553,7 @@ function ContactUs() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Personal Touch</h3>
                 <p className="text-gray-600">
-                  Every message is read by a real person who cares about your experience with ilovepdf.cc.
+                  Every message is read by a real person who cares about your experience with ilovepdf8.com.
                 </p>
               </div>
             </div>
@@ -592,7 +592,7 @@ function ContactUs() {
                 href="/" 
                 className="text-red-500 hover:text-red-600 font-medium transition-colors"
               >
-                ← Back to ilovepdf.cc
+                ← Back to ilovepdf8.com
               </a>
               <div className="flex gap-4 text-sm">
                 <a 

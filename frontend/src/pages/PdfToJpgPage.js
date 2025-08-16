@@ -80,36 +80,27 @@ function PdfToJpgPage() {
   // Enhanced FAQ with long-tail keywords
   const faqData = [
     {
-      question: "How to convert PDF to JPG online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the easiest way to convert PDF to JPG online for free. Simply upload your PDF files, choose your preferred JPG quality and DPI settings, select pages to convert, and download high-quality JPEG images. Our PDF to JPG converter supports batch conversion and maintains excellent image quality while optimizing file sizes for various use cases."
+      question: "How to convert PDF to JPG online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the easiest way to convert PDF to JPG online for free. Simply upload your PDF files, choose your preferred JPG quality and DPI settings, select pages to convert, and download high-quality JPEG images. Our PDF to JPG converter supports batch conversion and maintains excellent image quality while optimizing file sizes for various use cases."
     },
-    {
-      question: "What's the best PDF to JPG converter quality settings for different purposes?",
-      answer: "For professional printing, use High quality (95) at 300-600 DPI. For web use and social media, choose Medium quality (85) at 150-300 DPI. For email attachments and quick sharing, select Good quality (75) at 72-150 DPI. ilovepdf.cc's online PDF to JPG converter allows you to customize these settings for optimal results based on your specific needs."
-    },
+    
     {
       question: "Can I convert specific pages from PDF to JPG images online?",
-      answer: "Yes! ilovepdf.cc's PDF to JPG converter lets you convert all pages or select custom page ranges. You can extract specific pages like pages 1-5, convert only odd/even pages, or choose individual pages. This feature is perfect when you only need certain pages as JPG images from large PDF documents, saving time and storage space."
+      answer: "Yes! ilovepdf8.com's PDF to JPG converter lets you convert all pages or select custom page ranges. You can extract specific pages like pages 1-5, convert only odd/even pages, or choose individual pages. This feature is perfect when you only need certain pages as JPG images from large PDF documents, saving time and storage space."
     },
     {
-      question: "Is online PDF to JPG conversion safe and secure on ilovepdf.cc?",
-      answer: "Absolutely! ilovepdf.cc uses advanced SSL encryption to protect your files during the PDF to JPG conversion process. All uploaded PDF files are automatically deleted from our servers after 1 hour. We never store, access, or share your documents, ensuring complete privacy and security for your sensitive PDF content."
+      question: "Is online PDF to JPG conversion safe and secure on ilovepdf8.com?",
+      answer: "Absolutely! ilovepdf8.com uses advanced SSL encryption to protect your files during the PDF to JPG conversion process. All uploaded PDF files are automatically deleted from our servers after 1 hour. We never store, access, or share your documents, ensuring complete privacy and security for your sensitive PDF content."
     },
-    {
-      question: "What's the maximum PDF file size for online JPG conversion?",
-      answer: "ilovepdf.cc supports PDF files up to 50MB per file for JPG conversion. You can upload up to 10 PDF files simultaneously with a total combined size limit of 200MB. For larger PDF files, we recommend using our PDF compression tool first or splitting large PDFs into smaller sections before converting to JPG images."
-    },
-    {
-      question: "How does PDF to JPG conversion preserve image quality?",
-      answer: "Our advanced PDF to JPG converter uses professional-grade algorithms to maintain maximum image quality during conversion. You can adjust DPI settings (72-600 DPI) and quality levels (65-95) to balance between file size and image clarity. The converter preserves original colors, sharpness, and details while optimizing for your intended use case."
-    },
+    
+   
     {
       question: "Can I convert password-protected PDF files to JPG images?",
       answer: "Currently, our online PDF to JPG converter requires unprotected PDF files. If your PDF is password-protected, please use our PDF unlock tool first to remove the password protection, then convert the unlocked PDF to JPG images. This ensures the conversion process works smoothly and maintains security protocols."
     },
     {
-      question: "What devices support ilovepdf.cc's online PDF to JPG converter?",
-      answer: "ilovepdf.cc's PDF to JPG converter works on all devices including Windows PCs, Mac computers, Android smartphones, iPhones, iPads, and tablets. Our responsive web-based converter requires no software installation and works directly in your browser (Chrome, Firefox, Safari, Edge). Perfect for converting PDF to JPG on-the-go from any device."
+      question: "What devices support ilovepdf8.com's online PDF to JPG converter?",
+      answer: "ilovepdf8.com's PDF to JPG converter works on all devices including Windows PCs, Mac computers, Android smartphones, iPhones, iPads, and tablets. Our responsive web-based converter requires no software installation and works directly in your browser (Chrome, Firefox, Safari, Edge). Perfect for converting PDF to JPG on-the-go from any device."
     }
   ]
 
@@ -436,23 +427,22 @@ function PdfToJpgPage() {
       {/* SEO Meta Tags - Using document.head instead of Helmet */}
       {typeof document !== 'undefined' && (
         <>
-          {document.title = "Free Online PDF to JPG Converter - Convert PDF to JPEG Images | ilovepdf.cc"}
           {(() => {
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Convert PDF to JPG online free with ilovepdf.cc. Extract high-quality JPEG images from PDF pages. Fast, secure PDF to JPG converter with custom quality settings. No software required." },
-              { name: "keywords", content: "pdf to jpg, online pdf to jpg, pdf to jpg converter, convert pdf to jpg, pdf to jpeg, pdf to image converter, extract images from pdf, ilovepdf.cc" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "description", content: "Convert PDF to JPG online free with ilovepdf8.com. Extract high-quality JPEG images from PDF pages. Fast, secure PDF to JPG converter with custom quality settings. No software required." },
+              { name: "keywords", content: "pdf to jpg, online pdf to jpg, pdf to jpg converter, convert pdf to jpg, pdf to jpeg, pdf to image converter, extract images from pdf, ilovepdf8.com" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF to JPG Converter | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF to JPG Converter | ilovepdf8.com" },
               { property: "og:description", content: "Convert PDF pages to high-quality JPG images online. Free PDF to JPG converter with custom quality settings and batch processing." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/pdf-to-jpg" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/pdf-to-jpg" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free PDF to JPG Converter Online | ilovepdf.cc" },
-              { name: "twitter:description", content: "Convert PDF to JPG images online free. Extract pages from PDF as high-quality JPEG files with ilovepdf.cc" }
+              { name: "twitter:title", content: "Free PDF to JPG Converter Online | ilovepdf8.com" },
+              { name: "twitter:description", content: "Convert PDF to JPG images online free. Extract pages from PDF as high-quality JPEG files with ilovepdf8.com" }
             ]
             
             metaTags.forEach(tag => {
@@ -475,7 +465,7 @@ function PdfToJpgPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/pdf-to-jpg')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/pdf-to-jpg')
           })()}
         </>
       )}
@@ -1076,7 +1066,7 @@ function PdfToJpgPage() {
                 JPG Conversion Complete! 🎉
               </h2>
               <p className="text-gray-600 mb-6 max-w-md mx-auto">
-                Your {pdfFiles.length} PDF file{pdfFiles.length > 1 ? 's have' : ' has'} been successfully converted to high-quality JPG images using ilovepdf.cc's advanced converter.
+                Your {pdfFiles.length} PDF file{pdfFiles.length > 1 ? 's have' : ' has'} been successfully converted to high-quality JPG images using ilovepdf8.com's advanced converter.
               </p>
 
               {/* Enhanced Conversion Summary */}
@@ -1213,7 +1203,7 @@ function PdfToJpgPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF to JPG Conversion?
+              Why Choose ilovepdf8.com for PDF to JPG Conversion?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Extract high-quality JPEG images from PDF documents with our professional-grade online PDF to JPG converter
@@ -1302,7 +1292,7 @@ function PdfToJpgPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How to Convert PDF to JPG Online with ilovepdf.cc
+              How to Convert PDF to JPG Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Extract PDF pages as high-quality JPEG images in 3 simple steps using our online PDF to JPG converter
@@ -1351,7 +1341,7 @@ function PdfToJpgPage() {
               Frequently Asked Questions About PDF to JPG Conversion
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about converting PDF to JPG images with ilovepdf.cc
+              Everything you need to know about converting PDF to JPG images with ilovepdf8.com
             </p>
           </div>
           
@@ -1382,170 +1372,7 @@ function PdfToJpgPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to PDF to JPG Conversion with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Why Convert PDF to JPEG Images Online?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  Converting PDF pages to JPG images with ilovepdf.cc offers unmatched versatility for digital workflows. JPEG format provides superior compression for photographic content, making it perfect for social media sharing, website integration, email attachments, and mobile viewing. Our online PDF to JPG converter maintains excellent image quality while optimizing file sizes for various applications.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  The JPG format's universal compatibility ensures your extracted images can be viewed on any device, platform, or application without compatibility issues. Whether you're creating thumbnails, extracting photos from documents, or preparing images for web publishing, our PDF to JPG converter delivers professional results.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF to JPG Conversion Benefits
-                </h3>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Extract individual PDF pages as high-resolution JPG images
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Customizable quality settings from 65% to 95% for optimal compression
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multiple DPI options (72-600) for web, print, and professional use
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Batch processing for multiple PDF files simultaneously
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    No software installation required - works in any browser
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Best Practices for Online PDF to JPG Conversion
-            </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              For optimal results when converting PDF to JPG with ilovepdf.cc, select quality settings based on your intended use: Choose High quality (95%) at 300-600 DPI for professional printing and archival purposes. Select Medium quality (85%) at 150-300 DPI for general sharing, presentations, and most digital applications. Use Good quality (75%) at 72-150 DPI for web publishing, email attachments, and quick sharing where file size is important.
-            </p>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Common Use Cases for PDF to JPG Conversion
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-blue-50 rounded-lg p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center">
-                  <Globe className="h-5 w-5 mr-2" />
-                  Web and Digital Marketing
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Convert PDF pages to JPG for social media posts, website content, blog images, email newsletters, and digital advertising campaigns. Perfect for creating engaging visual content from PDF documents.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center">
-                  <Camera className="h-5 w-5 mr-2" />
-                  Photo and Design Work
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  Extract images from PDF portfolios, convert document pages for photo editing, create thumbnails for galleries, and prepare images for graphic design projects using our PDF to JPG converter.
-                </p>
-              </div>
-              
-              <div className="bg-purple-50 rounded-lg p-6">
-                <h4 className="font-semibold text-purple-900 mb-3 flex items-center">
-                  <FileText className="h-5 w-5 mr-2" />
-                  Document Management
-                </h4>
-                <p className="text-purple-800 text-sm leading-relaxed">
-                  Convert PDF pages for document previews, create image-based backups, extract specific pages for reports, and prepare documents for content management systems.
-                </p>
-              </div>
-              
-              <div className="bg-orange-50 rounded-lg p-6">
-                <h4 className="font-semibold text-orange-900 mb-3 flex items-center">
-                  <Monitor className="h-5 w-5 mr-2" />
-                  Presentations and Education
-                </h4>
-                <p className="text-orange-800 text-sm leading-relaxed">
-                  Convert educational materials to images, create presentation slides from PDF content, extract diagrams and charts, and prepare visual aids for teaching and training.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF to JPG Conversion?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed">
-              ilovepdf.cc stands out as the premier online PDF to JPG converter, offering professional-grade conversion capabilities without the need for software installation. Our advanced algorithms preserve image quality while providing extensive customization options for DPI, quality, and color output. The platform's robust security measures, including SSL encryption and automatic file deletion, ensure your sensitive documents remain private and secure throughout the conversion process.
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              With support for batch processing, custom page ranges, and multiple output formats, ilovepdf.cc provides the flexibility and reliability that professionals, students, and businesses need for their PDF to JPG conversion requirements. Experience the difference that quality, speed, and security make in your document workflow.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-50 to-purple-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Works on Every Device - Convert PDF to JPG Anywhere
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF to JPG converter is fully responsive and optimized for all devices. Convert PDFs to images anywhere, anytime.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Desktop & Laptop</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Full-featured PDF to JPG conversion on Windows, Mac, and Linux. Perfect for professional workflows and batch processing tasks.
-              </p>
-            </div>
-            
-            <div className="text-center bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Mobile & Tablet</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Touch-optimized interface for iOS and Android. Convert PDFs to JPG images on the go with the same powerful tools.
-              </p>
-            </div>
-            
-            <div className="text-center bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Any Browser</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Works with Chrome, Firefox, Safari, Edge, and more. No plugins or extensions required for PDF to JPG conversion.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-red-500 to-red-600 py-16">
@@ -1554,7 +1381,7 @@ function PdfToJpgPage() {
             Ready to Convert PDF to High-Quality JPG Images?
           </h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Extract PDF pages as professional-quality JPEG images with ilovepdf.cc's advanced online converter. All tools are free and work instantly in your browser.
+            Extract PDF pages as professional-quality JPEG images with ilovepdf8.com's advanced online converter. All tools are free and work instantly in your browser.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1573,7 +1400,7 @@ function PdfToJpgPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-6 text-sm">
-            Free to use • No registration required • Secure processing on ilovepdf.cc
+            Free to use • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1635,7 +1462,7 @@ function PdfToJpgPage() {
 
           <div className="border-t border-gray-200 mt-12 pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Made with{" "}
+              © 2024 ilovepdf8.com. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF and image lovers worldwide.
             </p>

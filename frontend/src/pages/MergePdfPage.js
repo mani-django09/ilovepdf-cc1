@@ -73,37 +73,28 @@ function MergePdfPage() {
   // Enhanced FAQ with merge PDF focus
   const faqData = [
     {
-      question: "How to merge PDF files online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PDF merger for combining multiple PDF documents into one file. Simply upload your PDF files, drag to reorder them, and click merge. Our advanced PDF combiner preserves document quality while securely processing your files online without software installation required."
+      question: "How to merge PDF files online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PDF merger for combining multiple PDF documents into one file. Simply upload your PDF files, drag to reorder them, and click merge. Our advanced PDF combiner preserves document quality while securely processing your files online without software installation required."
     },
     {
       question: "Can I combine PDF files of different sizes and formats?",
       answer: "Yes! Our online PDF merger can combine PDF files of various sizes, orientations, and page counts. Whether you're merging business reports, academic papers, or mixed document types, the PDF combiner maintains each document's original formatting and quality in the final merged PDF."
     },
     {
-      question: "Is it safe to merge PDF documents online using ilovepdf.cc?",
-      answer: "Absolutely! ilovepdf.cc's PDF merger uses enterprise-grade SSL encryption to protect your documents during the merge process. All uploaded PDF files are automatically deleted after 1 hour, ensuring complete privacy. We never store, access, or share your combined PDF documents."
+      question: "Is it safe to merge PDF documents online using ilovepdf8.com?",
+      answer: "Absolutely! ilovepdf8.com's PDF merger uses enterprise-grade SSL encryption to protect your documents during the merge process. All uploaded PDF files are automatically deleted after 1 hour, ensuring complete privacy. We never store, access, or share your combined PDF documents."
     },
     {
       question: "How many PDF files can I merge at once with the online merger?",
       answer: "You can merge up to 20 PDF files simultaneously with our online PDF combiner, supporting a maximum total size of 100MB. This makes it perfect for combining multiple chapters, reports, or document sections into one comprehensive PDF file."
     },
-    {
-      question: "Can I change the order of PDF pages when merging documents?",
-      answer: "Yes! Our PDF merger includes an intuitive drag-and-drop interface for reordering PDF files before combining them. Simply drag files up or down in the list to arrange them in your desired sequence. The final merged PDF will follow the exact order you specify."
-    },
-    {
-      question: "What happens to bookmarks and metadata when I combine PDF files?",
-      answer: "The PDF merger preserves bookmarks from individual documents in the combined PDF. The merged document inherits metadata from the first PDF file while maintaining the structural integrity and navigation features of all included documents for professional results."
-    },
+    
+    
     {
       question: "Does the online PDF merger work on mobile devices and tablets?",
-      answer: "Yes! ilovepdf.cc's PDF merger is fully optimized for mobile devices, tablets, and desktop computers. You can combine PDF files on Android phones, iPhones, iPads, and any device with a web browser. The responsive interface adapts to all screen sizes for easy PDF merging anywhere."
+      answer: "Yes! ilovepdf8.com's PDF merger is fully optimized for mobile devices, tablets, and desktop computers. You can combine PDF files on Android phones, iPhones, iPads, and any device with a web browser. The responsive interface adapts to all screen sizes for easy PDF merging anywhere."
     },
-    {
-      question: "Can I merge password-protected PDF files using the online combiner?",
-      answer: "For security reasons, password-protected PDF files must be unlocked before merging. You can use our 'Unlock PDF' tool to remove passwords first, then use the PDF merger to combine your documents. This ensures secure handling of protected content."
-    }
+    
   ]
 
   // PDF merging features for benefits section
@@ -443,22 +434,22 @@ function MergePdfPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "Merge PDF Online Free - Combine PDF Files | ilovepdf.cc"
+            document.title = "Merge PDF Online Free - Combine PDF Files | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Merge PDF files online free with ilovepdf.cc PDF merger. Combine multiple PDF documents into one file instantly. Professional PDF combiner with secure processing. No software required." },
-              { name: "keywords", content: "merge pdf, combine pdf, online merge pdf, pdf merger, pdf combiner, merge pdf files online, combine pdf documents, ilovepdf.cc" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "description", content: "Merge PDF files online free with ilovepdf8.com PDF merger. Combine multiple PDF documents into one file instantly. Professional PDF combiner with secure processing. No software required." },
+              { name: "keywords", content: "merge pdf, combine pdf, online merge pdf, pdf merger, pdf combiner, merge pdf files online, combine pdf documents, ilovepdf8.com" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF Merger - Combine PDF Files | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF Merger - Combine PDF Files | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF merger for combining multiple PDF documents online. Merge PDF files instantly with secure processing. Free, fast, and easy to use." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/merge" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/merge" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free Online PDF Merger | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free Online PDF Merger | ilovepdf8.com" },
               { name: "twitter:description", content: "Merge PDF files online free. Professional PDF combiner for merging documents in your browser." }
             ]
             
@@ -482,7 +473,7 @@ function MergePdfPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/merge')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/merge')
           })()}
         </>
       )}
@@ -935,7 +926,7 @@ function MergePdfPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's Online PDF Merger?
+              Why Choose ilovepdf8.com's Online PDF Merger?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF combining capabilities with advanced merging features for all your document needs
@@ -978,7 +969,7 @@ function MergePdfPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Merge PDF Files Online with ilovepdf.cc
+              How to Merge PDF Files Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF merging in 3 simple steps using our advanced online PDF combiner
@@ -1019,34 +1010,7 @@ function MergePdfPage() {
         </div>
       </section>
 
-      {/* PDF Merging Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF Merging for Every Purpose
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF merger serves professionals, students, and businesses with comprehensive document combining capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className={`bg-${useCase.color}-50 rounded-lg p-4 lg:p-6`}>
-                <h4 className={`font-semibold text-${useCase.color}-900 mb-3 flex items-center text-sm lg:text-base`}>
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className={`text-${useCase.color}-800 text-sm leading-relaxed`}>
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
@@ -1055,7 +1019,7 @@ function MergePdfPage() {
               Frequently Asked Questions About PDF Merging
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about combining PDF documents with ilovepdf.cc's online PDF merger
+              Everything you need to know about combining PDF documents with ilovepdf8.com's online PDF merger
             </p>
           </div>
           
@@ -1086,158 +1050,7 @@ function MergePdfPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF Merging with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF Merger?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PDF merger revolutionizes document combining by providing professional-grade capabilities directly in your browser. Unlike traditional PDF software that requires expensive licenses and complex installations, our web-based PDF combiner offers instant access to powerful merging tools. This cloud-based approach ensures you can merge PDF documents from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PDF merger maintains document integrity while combining multiple files, making it perfect for professionals who need to create comprehensive reports, students compiling research materials, or businesses organizing documentation. With advanced processing algorithms and quality preservation, every merged PDF maintains the original appearance and structure of all combined documents.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF Merging Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Drag-and-drop file reordering for perfect document sequence
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Automatic bookmark and metadata preservation during merging
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multi-file support for combining up to 20 PDFs simultaneously
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Real-time progress tracking with instant processing feedback
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality output maintaining original document standards
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF Combining Capabilities
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PDF merger utilizes cutting-edge document processing technology to intelligently combine multiple PDF files while preserving their individual characteristics. This sophisticated approach allows for seamless merging while maintaining document integrity, formatting, and structure. The merger automatically handles different page sizes, orientations, and content types, ensuring that your combined PDF maintains professional appearance regardless of the source documents' diversity.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Merger Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when combining sensitive documents online. ilovepdf.cc's PDF merger employs enterprise-grade SSL encryption to protect your documents during the merging process. All uploaded files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're financial reports, legal contracts, or personal papers, remain completely private throughout the merging session. The PDF merger never stores, accesses, or shares your documents beyond the necessary processing time.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PDF Merging Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Merge className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Effective File Organization
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Arrange files in logical order before merging. Use descriptive filenames for easy identification. Consider document flow and reader navigation when organizing pages. Preview the final order before processing.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Shield className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Quality Optimization
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  The PDF merger automatically optimizes file size while maintaining quality. Ensure source files are high-quality for best results. Remove unnecessary pages before merging. Download immediately after processing completion.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF Merging?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PDF merging, combining powerful functionality with user-friendly design. Our PDF merger offers professional-grade combining capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF merging simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for up to 20 documents, drag-and-drop reordering, and real-time processing preview, our PDF merger handles everything from simple document combining to complex multi-file organization. The combination of powerful merging tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to combine PDF documents online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Merge PDF Documents on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF merger works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop PDF Merger</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured PDF merging on Windows, Mac, and Linux computers. Professional workflow support with advanced combining capabilities and multi-document handling.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile PDF Merger</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized PDF merging on smartphones and tablets. Combine PDF documents on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Merger</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PDF merger instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1321,7 +1134,7 @@ function MergePdfPage() {
             Ready to Merge Your PDF Documents?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PDF merging with ilovepdf.cc's advanced online combiner. Merge multiple documents instantly with secure processing and perfect quality.
+            Experience professional PDF merging with ilovepdf8.com's advanced online combiner. Merge multiple documents instantly with secure processing and perfect quality.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1340,7 +1153,7 @@ function MergePdfPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PDF merging tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF merging tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1419,7 +1232,7 @@ function MergePdfPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF Merger. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PDF Merger. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF merging professionals worldwide.
             </p>

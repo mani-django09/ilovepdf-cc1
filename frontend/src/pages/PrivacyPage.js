@@ -5,11 +5,11 @@ function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white">
       {/* SEO Meta Tags */}
-      <title>Privacy Policy - ilovepdf.cc | Your Data Security & Privacy</title>
-      <meta name="description" content="Learn how ilovepdf.cc protects your privacy and handles your data. We use SSL encryption, auto-delete files, and never store your personal documents." />
-      <meta name="keywords" content="privacy policy, ilovepdf.cc privacy, data protection, file security, ssl encryption" />
+      <title>Privacy Policy - ilovepdf8.com | Your Data Security & Privacy</title>
+      <meta name="description" content="Learn how ilovepdf8.com protects your privacy and handles your data. We use SSL encryption, auto-delete files, and never store your personal documents." />
+      <meta name="keywords" content="privacy policy, ilovepdf8.com privacy, data protection, file security, ssl encryption" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://ilovepdf.cc/privacy" />
+      <link rel="canonical" href="https://ilovepdf8.com/privacy" />
 
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
@@ -42,7 +42,7 @@ function PrivacyPolicy() {
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Your privacy is important to us. This policy explains how we collect, use, and protect 
-            your information when you use ilovepdf.cc services.
+            your information when you use ilovepdf8.com services.
           </p>
           <div className="mt-6 text-sm text-gray-500">
             Last updated: December 15, 2024
@@ -75,7 +75,7 @@ function PrivacyPolicy() {
             
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Files You Upload</h3>
             <p className="text-gray-600 mb-4">
-              When you use ilovepdf.cc, you may upload PDF files and other documents for processing. These files are:
+              When you use ilovepdf8.com, you may upload PDF files and other documents for processing. These files are:
             </p>
             <ul className="list-disc list-inside text-gray-600 mb-4 space-y-2">
               <li>Processed temporarily on our secure servers</li>
@@ -180,7 +180,7 @@ function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Third-Party Services</h2>
             <p className="text-gray-600 mb-4">
-              We use certain third-party services to operate ilovepdf.cc effectively:
+              We use certain third-party services to operate ilovepdf8.com effectively:
             </p>
             
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Analytics Services</h3>
@@ -256,7 +256,7 @@ function PrivacyPolicy() {
 
             <h3 className="text-xl font-semibold text-gray-900 mb-3">How to Exercise Your Rights</h3>
             <p className="text-gray-600 mb-4">
-              To exercise any of these rights, contact us at privacy@ilovepdf.cc. We'll respond within 30 days 
+              To exercise any of these rights, contact us at privacy@ilovepdf8.com. We'll respond within 30 days 
               and may need to verify your identity to protect your privacy.
             </p>
           </section>
@@ -264,7 +264,7 @@ function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. International Data Transfers</h2>
             <p className="text-gray-600 mb-4">
-              ilovepdf.cc operates globally and may process your data in different countries. We ensure adequate 
+              ilovepdf8.com operates globally and may process your data in different countries. We ensure adequate 
               protection through:
             </p>
             <ul className="list-disc list-inside text-gray-600 mb-4 space-y-2">
@@ -278,7 +278,7 @@ function PrivacyPolicy() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Children's Privacy</h2>
             <p className="text-gray-600 mb-4">
-              ilovepdf.cc is not intended for children under 13 years of age. We do not knowingly collect personal 
+              ilovepdf8.com is not intended for children under 13 years of age. We do not knowingly collect personal 
               information from children under 13. If you're a parent and believe your child has provided us with 
               personal information, please contact us immediately.
             </p>
@@ -315,14 +315,14 @@ function PrivacyPolicy() {
                     <Globe className="h-5 w-5 text-gray-500 mr-2" />
                     <span className="font-semibold text-gray-900">Website:</span>
                   </div>
-                  <span className="text-gray-600 ml-7">https://ilovepdf.cc</span>
+                  <span className="text-gray-600 ml-7">https://ilovepdf8.com</span>
                 </div>
                 <div>
                   <div className="flex items-center mb-2">
                     <Shield className="h-5 w-5 text-gray-500 mr-2" />
                     <span className="font-semibold text-gray-900">Privacy Email:</span>
                   </div>
-                  <span className="text-gray-600 ml-7">privacy@ilovepdf.cc</span>
+                  <span className="text-gray-600 ml-7">privacy@ilovepdf8.com</span>
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-gray-300">
@@ -341,7 +341,7 @@ function PrivacyPolicy() {
             </p>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
               <p className="text-blue-800 font-medium mb-2">Data Protection Officer</p>
-              <p className="text-blue-700">Email: dpo@ilovepdf.cc</p>
+              <p className="text-blue-700">Email: dpo@ilovepdf8.com</p>
               <p className="text-blue-700 text-sm mt-2">
                 Available for questions about data processing, privacy rights, and compliance matters.
               </p>
@@ -385,7 +385,7 @@ function PrivacyPolicy() {
               href="/" 
               className="text-red-500 hover:text-red-600 font-medium transition-colors"
             >
-              ← Back to ilovepdf.cc
+              ← Back to ilovepdf8.com
             </a>
             <div className="flex gap-4 text-sm">
               <a 

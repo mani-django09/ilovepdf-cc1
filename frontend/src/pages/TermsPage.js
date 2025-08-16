@@ -5,11 +5,11 @@ function TermsOfService() {
   return (
     <div className="min-h-screen bg-white">
       {/* SEO Meta Tags */}
-      <title>Terms of Service - ilovepdf.cc | Free PDF Tools Online</title>
-      <meta name="description" content="Read the terms of service for ilovepdf.cc. Understand your rights and responsibilities when using our free PDF tools and services." />
-      <meta name="keywords" content="terms of service, ilovepdf.cc terms, pdf tools terms, legal agreement" />
+      <title>Terms of Service - ilovepdf8.com | Free PDF Tools Online</title>
+      <meta name="description" content="Read the terms of service for ilovepdf8.com. Understand your rights and responsibilities when using our free PDF tools and services." />
+      <meta name="keywords" content="terms of service, ilovepdf8.com terms, pdf tools terms, legal agreement" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://ilovepdf.cc/terms" />
+      <link rel="canonical" href="https://ilovepdf8.com/terms" />
 
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
@@ -41,7 +41,7 @@ function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Please read these terms carefully before using ilovepdf.cc services. 
+            Please read these terms carefully before using ilovepdf8.com services. 
             By using our website, you agree to be bound by these terms.
           </p>
           <div className="mt-6 text-sm text-gray-500">
@@ -57,7 +57,7 @@ function TermsOfService() {
               Quick Summary
             </h2>
             <p className="text-blue-800 mb-0">
-              ilovepdf.cc provides free PDF processing tools. By using our service, you agree to use it responsibly, 
+              ilovepdf8.com provides free PDF processing tools. By using our service, you agree to use it responsibly, 
               respect intellectual property rights, and understand that we process files temporarily for conversion purposes only.
             </p>
           </div>
@@ -65,19 +65,19 @@ function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-600 mb-4">
-              By accessing and using ilovepdf.cc ("the Service"), you accept and agree to be bound by the terms and 
+              By accessing and using ilovepdf8.com ("the Service"), you accept and agree to be bound by the terms and 
               provision of this agreement. If you do not agree to abide by the above, please do not use this service.
             </p>
             <p className="text-gray-600">
-              These Terms of Service ("Terms") govern your use of our website located at ilovepdf.cc (the "Service") 
-              operated by ilovepdf.cc ("us", "we", or "our").
+              These Terms of Service ("Terms") govern your use of our website located at ilovepdf8.com (the "Service") 
+              operated by ilovepdf8.com ("us", "we", or "our").
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Description of Service</h2>
             <p className="text-gray-600 mb-4">
-              ilovepdf.cc provides free online PDF processing tools including but not limited to:
+              ilovepdf8.com provides free online PDF processing tools including but not limited to:
             </p>
             <ul className="list-disc list-inside text-gray-600 mb-4 space-y-2">
               <li>PDF merging and splitting</li>
@@ -128,11 +128,11 @@ function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Intellectual Property Rights</h2>
             <p className="text-gray-600 mb-4">
-              You retain all ownership rights to files you upload to ilovepdf.cc. By uploading files, you grant us 
+              You retain all ownership rights to files you upload to ilovepdf8.com. By uploading files, you grant us 
               a temporary, limited license to process your files solely for the purpose of providing the requested service.
             </p>
             <p className="text-gray-600 mb-4">
-              The ilovepdf.cc website, including its design, functionality, and content (excluding user-uploaded files), 
+              The ilovepdf8.com website, including its design, functionality, and content (excluding user-uploaded files), 
               is owned by us and protected by copyright and other intellectual property laws.
             </p>
           </section>
@@ -167,7 +167,7 @@ function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Limitation of Liability</h2>
             <p className="text-gray-600 mb-4">
-              In no event shall ilovepdf.cc be liable for any indirect, incidental, special, consequential, or punitive 
+              In no event shall ilovepdf8.com be liable for any indirect, incidental, special, consequential, or punitive 
               damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.
             </p>
             <p className="text-gray-600">
@@ -216,7 +216,7 @@ function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Governing Law</h2>
             <p className="text-gray-600 mb-4">
-              These Terms shall be interpreted and governed by the laws of the jurisdiction in which ilovepdf.cc operates, 
+              These Terms shall be interpreted and governed by the laws of the jurisdiction in which ilovepdf8.com operates, 
               without regard to its conflict of law provisions.
             </p>
             <p className="text-gray-600">
@@ -233,12 +233,12 @@ function TermsOfService() {
               <div className="flex items-center mb-2">
                 <Globe className="h-5 w-5 text-gray-500 mr-2" />
                 <span className="font-semibold text-gray-900">Website:</span>
-                <span className="ml-2 text-gray-600">https://ilovepdf.cc</span>
+                <span className="ml-2 text-gray-600">https://ilovepdf8.com</span>
               </div>
               <div className="flex items-center">
                 <FileText className="h-5 w-5 text-gray-500 mr-2" />
                 <span className="font-semibold text-gray-900">Email:</span>
-                <span className="ml-2 text-gray-600">legal@ilovepdf.cc</span>
+                <span className="ml-2 text-gray-600">legal@ilovepdf8.com</span>
               </div>
             </div>
           </section>
@@ -251,7 +251,7 @@ function TermsOfService() {
               href="/" 
               className="text-red-500 hover:text-red-600 font-medium transition-colors"
             >
-              ← Back to ilovepdf.cc
+              ← Back to ilovepdf8.com
             </a>
             <div className="flex gap-4 text-sm">
               <a 

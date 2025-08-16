@@ -62,36 +62,27 @@ function EditPdfPage() {
   // Enhanced FAQ with PDF editing focus
   const faqData = [
     {
-      question: "How to edit PDF text online free with ilovepdf.cc PDF editor?",
-      answer: "ilovepdf.cc provides the most intuitive online PDF editor for editing text directly in your browser. Simply upload your PDF file, click 'Enable Text Editing' mode, then click on any existing text to edit it in-place. Our advanced PDF editor preserves original formatting while allowing you to modify content instantly. No software installation required - just open, edit, and save your PDF documents online."
+      question: "How to edit PDF text online free with ilovepdf8.com PDF editor?",
+      answer: "ilovepdf8.com provides the most intuitive online PDF editor for editing text directly in your browser. Simply upload your PDF file, click 'Enable Text Editing' mode, then click on any existing text to edit it in-place. Our advanced PDF editor preserves original formatting while allowing you to modify content instantly. No software installation required - just open, edit, and save your PDF documents online."
     },
-    {
-      question: "Can I edit existing text in PDF documents without losing formatting?",
-      answer: "Yes! Our PDF editor is specifically designed to edit existing text while maintaining original fonts, sizes, and positioning. When you click on text in edit mode, it becomes directly editable with a yellow highlight, preserving the document's visual integrity. The PDF editor automatically detects font properties and maintains consistent formatting throughout your editing session."
-    },
+    
     {
       question: "Is the online PDF editor safe and secure for sensitive documents?",
-      answer: "Absolutely! ilovepdf.cc's PDF editor uses enterprise-grade SSL encryption to protect your documents during editing. All PDF files are processed securely in the cloud and automatically deleted after 1 hour. We never store, access, or share your documents, ensuring complete privacy for your sensitive PDF content while you edit text and make modifications."
+      answer: "Absolutely! ilovepdf8.com's PDF editor uses enterprise-grade SSL encryption to protect your documents during editing. All PDF files are processed securely in the cloud and automatically deleted after 1 hour. We never store, access, or share your documents, ensuring complete privacy for your sensitive PDF content while you edit text and make modifications."
     },
-    {
-      question: "What types of PDF text editing are supported by the online editor?",
-      answer: "Our PDF editor supports comprehensive text editing including modifying existing text content, changing words and sentences, correcting typos, updating information, and adjusting text within the original layout. The editor works with most PDF text elements while preserving the document structure, fonts, and formatting for professional results."
-    },
+    
     {
       question: "How do I save and download my edited PDF documents?",
       answer: "After editing your PDF text, click the 'Save Changes' button to process your modifications. The PDF editor will generate a new document with your edits applied while maintaining original quality. Once processing is complete, download your edited PDF instantly. The saved file includes all your text modifications in a clean, professional format."
     },
     {
-      question: "What devices support ilovepdf.cc's online PDF editor?",
+      question: "What devices support ilovepdf8.com's online PDF editor?",
       answer: "Our PDF editor works on all devices including Windows computers, Mac laptops, Android phones, iPhones, iPads, and tablets. The responsive PDF editor interface adapts to any screen size, making it easy to edit PDF text on desktop computers or mobile devices. All you need is a modern web browser - Chrome, Firefox, Safari, or Edge."
     },
-    {
-      question: "Can I edit large PDF files with multiple pages using the online editor?",
-      answer: "Yes! The PDF editor supports documents up to 100MB with unlimited pages. Navigate between pages using the built-in page controls while editing text. Each page can be edited independently, and the editor maintains your changes across the entire document. Perfect for editing reports, manuals, contracts, and other multi-page PDF documents."
-    },
+    
     {
       question: "Do I need to install software to use the PDF editor?",
-      answer: "No software installation required! ilovepdf.cc's PDF editor runs entirely in your web browser, providing full text editing capabilities without downloading or installing any programs. This cloud-based PDF editor offers the same functionality as desktop software while being accessible anywhere with an internet connection."
+      answer: "No software installation required! ilovepdf8.com's PDF editor runs entirely in your web browser, providing full text editing capabilities without downloading or installing any programs. This cloud-based PDF editor offers the same functionality as desktop software while being accessible anywhere with an internet connection."
     }
   ]
 
@@ -716,22 +707,22 @@ function EditPdfPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "Edit PDF Online Free - PDF Text Editor | ilovepdf.cc"
+            document.title = "Edit PDF Online Free - PDF Text Editor | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Edit PDF documents online free with ilovepdf.cc PDF editor. Click to edit text directly in PDF files. Professional PDF editing tools with secure processing. No software required." },
-              { name: "keywords", content: "pdf editor, edit pdf, online pdf editor, edit pdf text, pdf editing tool, modify pdf, pdf text editor, free pdf editor, ilovepdf.cc" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "description", content: "Edit PDF documents online free with ilovepdf8.com PDF editor. Click to edit text directly in PDF files. Professional PDF editing tools with secure processing. No software required." },
+              { name: "keywords", content: "pdf editor, edit pdf, online pdf editor, edit pdf text, pdf editing tool, modify pdf, pdf text editor, free pdf editor, ilovepdf8.com" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free Online PDF Editor - Edit PDF Text | ilovepdf.cc" },
+              { property: "og:title", content: "Free Online PDF Editor - Edit PDF Text | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF editor for editing text in PDF documents online. Click to edit PDF text directly in your browser. Free, secure, and easy to use." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/edit-pdf" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/edit-pdf" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free Online PDF Editor | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free Online PDF Editor | ilovepdf8.com" },
               { name: "twitter:description", content: "Edit PDF text online free. Professional PDF editor for modifying documents in your browser." }
             ]
             
@@ -755,7 +746,7 @@ function EditPdfPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/edit-pdf')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/edit-pdf')
           })()}
         </>
       )}
@@ -1451,7 +1442,7 @@ function EditPdfPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's Online PDF Editor?
+              Why Choose ilovepdf8.com's Online PDF Editor?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PDF editing capabilities with advanced text editing features for all your document modification needs
@@ -1494,7 +1485,7 @@ function EditPdfPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How to Edit PDF Documents Online with ilovepdf.cc
+              How to Edit PDF Documents Online with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PDF editing in 3 simple steps using our advanced online PDF editor
@@ -1535,34 +1526,7 @@ function EditPdfPage() {
         </div>
       </section>
 
-      {/* PDF Editing Use Cases Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Professional PDF Editing for Every Need
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF editor serves professionals, students, and businesses with comprehensive document editing capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className={`bg-${useCase.color}-50 rounded-lg p-6`}>
-                <h4 className={`font-semibold text-${useCase.color}-900 mb-3 flex items-center`}>
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className={`text-${useCase.color}-800 text-sm leading-relaxed`}>
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Enhanced FAQ Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
@@ -1571,7 +1535,7 @@ function EditPdfPage() {
               Frequently Asked Questions About PDF Editing
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about editing PDF documents with ilovepdf.cc's online PDF editor
+              Everything you need to know about editing PDF documents with ilovepdf8.com's online PDF editor
             </p>
           </div>
           
@@ -1602,157 +1566,7 @@ function EditPdfPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PDF Editing with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PDF Editor?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  ilovepdf.cc's online PDF editor revolutionizes document editing by providing professional-grade capabilities directly in your browser. Unlike traditional PDF editing software that requires expensive licenses and complex installations, our web-based PDF editor offers instant access to powerful text editing tools. This cloud-based approach ensures you can edit PDF documents from any device, anywhere, without compromising on functionality or security.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  The online PDF editor maintains document integrity while allowing precise text modifications, making it perfect for professionals who need to update contracts, students editing research papers, or businesses maintaining documentation. With advanced text recognition and formatting preservation, every edit maintains the document's original appearance and structure.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Professional PDF Editing Features
-                </h3>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Direct text editing with click-to-edit functionality
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Automatic font and formatting preservation during editing
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Multi-page document support with seamless navigation
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Real-time editing with instant visual feedback
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional-quality output matching original document standards
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PDF Editing Capabilities
-            </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Our PDF editor utilizes cutting-edge text recognition technology to identify and isolate editable text elements within your documents. This intelligent approach allows for precise editing while maintaining the document's visual integrity. The editor automatically detects font properties, sizes, and positioning, ensuring that your edits blend seamlessly with the original content. Whether you're correcting typos, updating information, or making substantial text changes, the PDF editor preserves the professional appearance of your documents.
-            </p>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              PDF Editor Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Security is paramount when editing sensitive documents online. ilovepdf.cc's PDF editor employs enterprise-grade SSL encryption to protect your documents during the editing process. All uploaded files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential documents, whether they're legal contracts, financial reports, or personal papers, remain completely private throughout the editing session. The PDF editor never stores, accesses, or shares your documents beyond the necessary processing time.
-            </p>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              PDF Editing Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-blue-50 rounded-lg p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center">
-                  <Edit3 className="h-5 w-5 mr-2" />
-                  Effective Text Editing
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  Click directly on text to activate edit mode. Make changes gradually to maintain formatting. Use the zoom feature for precise editing of small text. Always preview your changes before saving the edited PDF.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center">
-                  <Shield className="h-5 w-5 mr-2" />
-                  Document Quality
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  The PDF editor maintains original document quality while applying edits. Font matching technology ensures consistency. Save frequently during long editing sessions. Download the final version immediately after editing completion.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PDF Editing?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed">
-              ilovepdf.cc stands as the premier choice for online PDF editing, combining powerful functionality with user-friendly design. Our PDF editor offers professional-grade editing capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PDF editing simple for beginners while providing the advanced features that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              With support for documents up to 100MB, multi-page navigation, and real-time editing preview, our PDF editor handles everything from simple text corrections to comprehensive document modifications. The combination of powerful editing tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to edit PDF documents online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Edit PDF Documents on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PDF editor works seamlessly across all devices and platforms for ultimate flexibility
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Desktop PDF Editor</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Full-featured PDF editing on Windows, Mac, and Linux computers. Professional workflow support with advanced editing capabilities and multi-page document handling.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Mobile PDF Editor</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Touch-optimized PDF editing on smartphones and tablets. Edit PDF documents on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Browser-Based Editor</h3>
-              <p className="text-gray-600 leading-relaxed">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PDF editor instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-red-500 to-red-600 py-16">
@@ -1761,7 +1575,7 @@ function EditPdfPage() {
             Ready to Edit Your PDF Documents Online?
           </h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Experience professional PDF editing with ilovepdf.cc's advanced online editor. Edit text directly, maintain formatting, and download high-quality results instantly.
+            Experience professional PDF editing with ilovepdf8.com's advanced online editor. Edit text directly, maintain formatting, and download high-quality results instantly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1780,7 +1594,7 @@ function EditPdfPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-6 text-sm">
-            Free PDF editing tools • No registration required • Secure processing on ilovepdf.cc
+            Free PDF editing tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1842,7 +1656,7 @@ function EditPdfPage() {
 
           <div className="border-t border-gray-200 mt-12 pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PDF Editor. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PDF Editor. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF editing professionals worldwide.
             </p>

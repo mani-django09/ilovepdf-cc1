@@ -82,17 +82,11 @@ function PngToPdfPage() {
   // Enhanced FAQ with PNG to PDF focus
   const faqData = [
     {
-      question: "How to convert PNG to PDF online free with ilovepdf.cc?",
-      answer: "ilovepdf.cc offers the best online PNG to PDF converter for creating professional PDF documents from PNG images. Simply upload your PNG files, customize page settings like size and orientation, then convert instantly. Our PNG to PDF converter maintains image quality and creates polished documents."
+      question: "How to convert PNG to PDF online free with ilovepdf8.com?",
+      answer: "ilovepdf8.com offers the best online PNG to PDF converter for creating professional PDF documents from PNG images. Simply upload your PNG files, customize page settings like size and orientation, then convert instantly. Our PNG to PDF converter maintains image quality and creates polished documents."
     },
-    {
-      question: "Can I combine multiple PNG images into one PDF document?",
-      answer: "Yes! Our PNG to PDF converter allows you to upload multiple PNG images and merge them into a single PDF document. Each PNG becomes a separate page, or you can customize layouts to fit multiple images per page for maximum flexibility."
-    },
-    {
-      question: "What PDF page sizes are supported by the PNG to PDF converter?",
-      answer: "Our online PNG to PDF converter supports all standard page sizes including A4, A3, A5, Letter, Legal, and custom dimensions. Choose portrait or landscape orientation to perfectly showcase your PNG images in the final PDF document."
-    },
+    
+    
     {
       question: "Will my PNG image quality be preserved in the PDF conversion?",
       answer: "Absolutely! Our PNG to PDF converter maintains high image quality throughout the conversion process. You can select from multiple quality settings to balance file size and clarity, ensuring your PNG images look perfect in the final PDF."
@@ -101,13 +95,10 @@ function PngToPdfPage() {
       question: "What's the file size limit for PNG to PDF conversion?",
       answer: "Our PNG to PDF converter supports up to 20 PNG images at once, with each image up to 25MB in size. The total upload limit is 200MB, making it perfect for converting large collections of PNG images to PDF format efficiently."
     },
-    {
-      question: "Can I customize the layout and margins in the PDF conversion?",
-      answer: "Yes! Our PNG to PDF converter offers extensive customization options including page margins, image positioning, fit-to-page settings, and layout arrangements. Create professional PDF documents that perfectly showcase your PNG images."
-    },
+    
     {
       question: "Is the online PNG to PDF converter secure for sensitive images?",
-      answer: "Absolutely! ilovepdf.cc's PNG to PDF converter uses enterprise-grade SSL encryption to protect your images during conversion. All uploaded PNG files are automatically deleted from our servers after processing for complete privacy and security."
+      answer: "Absolutely! ilovepdf8.com's PNG to PDF converter uses enterprise-grade SSL encryption to protect your images during conversion. All uploaded PNG files are automatically deleted from our servers after processing for complete privacy and security."
     },
     {
       question: "Does the PNG to PDF converter work on mobile devices?",
@@ -487,22 +478,22 @@ function PngToPdfPage() {
         <>
           {(() => {
             // Set document title properly
-            document.title = "PNG to PDF Converter Online Free - Convert PNG Images to PDF | ilovepdf.cc"
+            document.title = "PNG to PDF Converter Online Free - Convert PNG Images to PDF | ilovepdf8.com"
             
             // Set meta tags
             const metaTags = [
-              { name: "description", content: "Convert PNG images to PDF online free with ilovepdf.cc PNG to PDF converter. Create professional PDF documents with custom layouts, page sizes, and quality settings. No software required." },
+              { name: "description", content: "Convert PNG images to PDF online free with ilovepdf8.com PNG to PDF converter. Create professional PDF documents with custom layouts, page sizes, and quality settings. No software required." },
               { name: "keywords", content: "png to pdf, png to pdf converter, online png to pdf, convert png to pdf, png to pdf online free, images to pdf, png pdf converter" },
-              { name: "author", content: "ilovepdf.cc" },
+              { name: "author", content: "ilovepdf8.com" },
               { name: "robots", content: "index, follow" },
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-              { property: "og:title", content: "Free PNG to PDF Converter - Create Professional PDFs from Images | ilovepdf.cc" },
+              { property: "og:title", content: "Free PNG to PDF Converter - Create Professional PDFs from Images | ilovepdf8.com" },
               { property: "og:description", content: "Professional PNG to PDF converter for creating polished PDF documents from PNG images. Custom layouts, quality settings, and batch conversion." },
-              { property: "og:url", content: "https://ilovepdf.cc/tools/png-to-pdf" },
+              { property: "og:url", content: "https://ilovepdf8.com/tools/png-to-pdf" },
               { property: "og:type", content: "website" },
-              { property: "og:site_name", content: "ilovepdf.cc" },
+              { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
-              { name: "twitter:title", content: "Free PNG to PDF Converter Tool | ilovepdf.cc" },
+              { name: "twitter:title", content: "Free PNG to PDF Converter Tool | ilovepdf8.com" },
               { name: "twitter:description", content: "Convert PNG images to PDF online free. Professional PNG to PDF converter with custom page layouts and quality settings." }
             ]
             
@@ -526,7 +517,7 @@ function PngToPdfPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf.cc/tools/png-to-pdf')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/png-to-pdf')
           })()}
         </>
       )}
@@ -1214,7 +1205,7 @@ function PngToPdfPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc's PNG to PDF Converter?
+              Why Choose ilovepdf8.com's PNG to PDF Converter?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Professional PNG to PDF conversion capabilities with advanced customization options and high-quality output for all your document creation needs
@@ -1257,7 +1248,7 @@ function PngToPdfPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              How to Convert PNG Images to PDF with ilovepdf.cc
+              How to Convert PNG Images to PDF with ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Professional PNG to PDF conversion in 3 simple steps using our advanced online converter
@@ -1298,33 +1289,7 @@ function PngToPdfPage() {
         </div>
       </section>
 
-      {/* PNG to PDF Use Cases Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Professional PNG to PDF Conversion for Every Need
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PNG to PDF converter serves professionals, creatives, and businesses with comprehensive image-to-document conversion capabilities
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  {useCase.icon}
-                  <span className="ml-2">{useCase.title}</span>
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  {useCase.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Enhanced FAQ Section */}
       <section className="py-12 lg:py-16 bg-white">
@@ -1334,7 +1299,7 @@ function PngToPdfPage() {
               Frequently Asked Questions About PNG to PDF Conversion
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about converting PNG images to PDF with ilovepdf.cc's online converter
+              Everything you need to know about converting PNG images to PDF with ilovepdf8.com's online converter
             </p>
           </div>
           
@@ -1365,158 +1330,7 @@ function PngToPdfPage() {
         </div>
       </section>
 
-      {/* Enhanced SEO Content Section */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-gray max-w-none">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Complete Guide to Online PNG to PDF Conversion with ilovepdf.cc
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Why Use an Online PNG to PDF Converter?
-                </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  ilovepdf.cc's online PNG to PDF converter revolutionizes document creation by providing professional-grade conversion directly in your browser. Unlike traditional software that requires expensive licenses and complex installations, our web-based PNG to PDF converter offers instant access to powerful document creation tools. This cloud-based approach ensures you can convert PNG images to PDF from any device, anywhere, without compromising on functionality or quality.
-                </p>
-                <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-                  The online PNG to PDF converter transforms images while preserving quality and adding professional formatting options. With advanced conversion algorithms and intelligent layout optimization, every PDF maintains crisp image quality and professional presentation standards, making it perfect for photographers creating portfolios, businesses preparing presentations, or students organizing research materials.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-4">
-                  Professional PNG to PDF Features
-                </h3>
-                <ul className="space-y-2 text-gray-600 text-sm lg:text-base">
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Batch PNG to PDF conversion with up to 20 files simultaneously
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Custom page layouts with multiple size and orientation options
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Quality preservation with adjustable compression settings
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Professional margin control and image positioning
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Secure cloud processing with automatic file deletion
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="h-4 lg:h-5 w-4 lg:w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                    Universal PDF compatibility for all devices and platforms
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Advanced PNG to PDF Conversion Technology
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Our PNG to PDF converter utilizes cutting-edge image processing technology to intelligently analyze PNG files and create optimized PDF documents. This sophisticated approach processes image content to maintain color accuracy, preserve transparency effects, and ensure optimal file size. The converter automatically handles different image dimensions and automatically scales content for perfect page fitting while maintaining aspect ratios and image integrity.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PNG to PDF Converter Security and Privacy
-            </h3>
-            <p className="text-gray-600 mb-4 lg:mb-6 leading-relaxed text-sm lg:text-base">
-              Security is paramount when processing sensitive PNG images online. ilovepdf.cc's PNG to PDF converter employs enterprise-grade SSL encryption to protect your images during the conversion process. All uploaded PNG files are processed on secure servers and automatically deleted within one hour of completion. This ensures that your confidential images, whether they're business graphics, personal photographs, artwork, or sensitive documents, remain completely private throughout the conversion session.
-            </p>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              PNG to PDF Conversion Best Practices and Tips
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
-              <div className="bg-blue-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-blue-900 mb-3 flex items-center text-sm lg:text-base">
-                  <FileText className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Optimization Tips
-                </h4>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  For best results, ensure PNG images are high resolution and properly cropped. Choose appropriate page sizes based on intended use and consider image orientation when selecting PDF layout options.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-4 lg:p-6">
-                <h4 className="font-semibold text-green-900 mb-3 flex items-center text-sm lg:text-base">
-                  <Settings className="h-4 lg:h-5 w-4 lg:w-5 mr-2" />
-                  Quality Settings
-                </h4>
-                <p className="text-green-800 text-sm leading-relaxed">
-                  Balance file size and image quality by selecting appropriate compression levels. High quality for professional printing, medium for web sharing, and compressed for email distribution.
-                </p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl lg:text-2xl font-semibold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for PNG to PDF Conversion?
-            </h3>
-            <p className="text-gray-600 mb-4 leading-relaxed text-sm lg:text-base">
-              ilovepdf.cc stands as the premier choice for online PNG to PDF conversion, combining powerful functionality with user-friendly design. Our PNG to PDF converter offers professional-grade document creation capabilities typically found only in expensive desktop software, but with the convenience and accessibility of a web-based platform. The intuitive interface makes PNG to PDF conversion simple for beginners while providing the advanced customization options that professionals require.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-              With support for batch conversion, multiple page layouts, quality control, and instant processing, our PNG to PDF converter handles everything from simple image-to-document conversion to complex portfolio creation workflows. The combination of powerful conversion tools, robust security measures, and seamless user experience makes ilovepdf.cc the trusted choice for millions of users worldwide who need to convert PNG images to PDF documents online.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Device Compatibility Section */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-8 lg:mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Convert PNG to PDF on Any Device
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc's PNG to PDF converter works seamlessly across all devices and platforms for ultimate convenience
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-blue-500 text-white rounded-xl mb-4">
-                <Monitor className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Desktop PNG to PDF</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Full-featured PNG to PDF conversion on Windows, Mac, and Linux computers. Professional workflow support with advanced customization and batch processing capabilities.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-green-500 text-white rounded-xl mb-4">
-                <Smartphone className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Mobile PNG to PDF</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                Touch-optimized PNG to PDF conversion on smartphones and tablets. Convert images to PDF on iOS and Android devices with responsive interface and mobile-friendly controls.
-              </p>
-            </div>
-            
-            <div className="text-center bg-gray-50 rounded-xl p-4 lg:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="inline-flex items-center justify-center w-14 lg:w-16 h-14 lg:h-16 bg-purple-500 text-white rounded-xl mb-4">
-                <Globe className="h-6 lg:h-8 w-6 lg:w-8" />
-              </div>
-              <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3">Browser-Based Converter</h3>
-              <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                No downloads required. Works in Chrome, Firefox, Safari, Edge, and all modern browsers. Access the PNG to PDF converter instantly from any device with internet connection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    
       {/* Stats Section */}
       <section className="py-12 lg:py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -1600,7 +1414,7 @@ function PngToPdfPage() {
             Ready to Convert Your PNG Images to PDF?
           </h2>
           <p className="text-lg lg:text-xl text-red-100 mb-6 lg:mb-8 max-w-2xl mx-auto">
-            Experience professional PNG to PDF conversion with ilovepdf.cc's advanced online converter. Create polished documents with custom layouts and instant download.
+            Experience professional PNG to PDF conversion with ilovepdf8.com's advanced online converter. Create polished documents with custom layouts and instant download.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -1619,7 +1433,7 @@ function PngToPdfPage() {
             </Link>
           </div>
           <p className="text-red-100 mt-4 lg:mt-6 text-sm">
-            Free PNG to PDF conversion tools • No registration required • Secure processing on ilovepdf.cc
+            Free PNG to PDF conversion tools • No registration required • Secure processing on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -1702,7 +1516,7 @@ function PngToPdfPage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 lg:mt-12 pt-6 lg:pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2024 ilovepdf.cc. Professional PNG to PDF Converter Tool. Made with{" "}
+              © 2024 ilovepdf8.com. Professional PNG to PDF Converter Tool. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PNG to PDF conversion professionals worldwide.
             </p>

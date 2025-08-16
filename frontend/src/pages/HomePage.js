@@ -216,33 +216,24 @@ const pdfTools = [
 // Enhanced FAQ data with long-tail keywords
 const faqData = [
   {
-    question: "How to merge multiple PDF files online for free at ilovepdf.cc?",
-    answer: "To merge PDF files online for free, simply visit ilovepdf.cc and select the 'Merge PDF' tool. Upload your PDF files by clicking 'Select PDF files' or drag and drop them. Arrange the files in your desired order, then click 'Merge PDF' to combine them into a single document. The merged PDF will be ready for download in seconds."
+    question: "How to merge multiple PDF files online for free at ilovepdf8.com?",
+    answer: "To merge PDF files online for free, simply visit ilovepdf8.com and select the 'Merge PDF' tool. Upload your PDF files by clicking 'Select PDF files' or drag and drop them. Arrange the files in your desired order, then click 'Merge PDF' to combine them into a single document. The merged PDF will be ready for download in seconds."
   },
   {
-    question: "Is it safe to use online PDF tools on ilovepdf.cc?",
-    answer: "Yes, ilovepdf.cc uses advanced SSL encryption to protect your files during upload and processing. All uploaded files are automatically deleted from our servers after 1 hour to ensure your privacy and security. We never store, share, or access your personal documents."
+    question: "Is it safe to use online PDF tools on ilovepdf8.com?",
+    answer: "Yes, ilovepdf8.com uses advanced SSL encryption to protect your files during upload and processing. All uploaded files are automatically deleted from our servers after 1 hour to ensure your privacy and security. We never store, share, or access your personal documents."
   },
-  {
-    question: "What file formats can I convert to PDF using ilovepdf.cc?",
-    answer: "ilovepdf.cc supports conversion from multiple formats including Word (DOC, DOCX), Excel (XLS, XLSX), PowerPoint (PPT, PPTX), images (JPG, PNG, WebP, TIFF), and more. You can also convert PDFs to these formats and many others."
-  },
+  
   {
     question: "How much can I compress a PDF file size online?",
     answer: "Our PDF compression tool can reduce file sizes by up to 90% while maintaining excellent quality. The compression ratio depends on your original file content - documents with many images typically achieve higher compression rates than text-only files."
   },
   {
-    question: "Can I use ilovepdf.cc PDF tools on mobile devices?",
-    answer: "Absolutely! ilovepdf.cc is fully responsive and works perfectly on smartphones, tablets, and desktop computers. All our PDF tools are optimized for mobile use, allowing you to edit, convert, and manage PDFs on any device with an internet connection."
+    question: "Can I use this PDF tools on mobile devices?",
+    answer: "Absolutely! ilovepdf8.com is fully responsive and works perfectly on smartphones, tablets, and desktop computers. All our PDF tools are optimized for mobile use, allowing you to edit, convert, and manage PDFs on any device with an internet connection."
   },
-  {
-    question: "Do I need to install software to use PDF tools on ilovepdf.cc?",
-    answer: "No installation required! All PDF tools on ilovepdf.cc work directly in your web browser. Whether you're using Chrome, Firefox, Safari, or Edge, you can access our complete suite of PDF tools without downloading any software."
-  },
-  {
-    question: "How long does it take to process PDF files on ilovepdf.cc?",
-    answer: "Most PDF operations on ilovepdf.cc are completed within seconds. Processing time depends on file size and complexity, but our optimized servers ensure fast processing. Small files (under 10MB) typically process in 1-3 seconds, while larger files may take 10-30 seconds."
-  },
+  
+  
   {
     question: "Are there any file size limits for PDF processing?",
     answer: "Free users can upload files up to 25MB per file. For larger files or batch processing, consider our premium plans which offer increased file size limits and faster processing speeds."
@@ -322,20 +313,20 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Enhanced Meta Tags */}
-      <title>Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf.cc</title>
-      <meta name="description" content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use. No software installation required. Try ilovepdf.cc now!" />
-      <meta name="keywords" content="pdf tools, merge pdf, split pdf, compress pdf, pdf to word, word to pdf, pdf converter, online pdf editor, png to pdf, pdf to png, ilovepdf.cc" />
-      <meta name="author" content="ilovepdf.cc" />
+      <title>Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf8.com</title>
+      <meta name="description" content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use. No software installation required. Try ilovepdf8.com now!" />
+      <meta name="keywords" content="pdf tools, merge pdf, split pdf, compress pdf, pdf to word, word to pdf, pdf converter, online pdf editor, png to pdf, pdf to png, ilovepdf8.com" />
+      <meta name="author" content="ilovepdf8.com" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf.cc" />
+      <meta property="og:title" content="Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf8.com" />
       <meta property="og:description" content="Complete suite of free PDF tools. Merge, split, compress, convert, and edit PDF files online. Fast, secure, and works on any device." />
-      <meta property="og:url" content="https://ilovepdf.cc" />
+      <meta property="og:url" content="https://ilovepdf8.com" />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="ilovepdf.cc" />
+      <meta property="og:site_name" content="ilovepdf8.com" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Free PDF Tools Online - ilovepdf.cc" />
+      <meta name="twitter:title" content="Free PDF Tools Online - ilovepdf8.com" />
       <meta name="twitter:description" content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use." />
-      <link rel="canonical" href="https://ilovepdf.cc" />
+      <link rel="canonical" href="https://ilovepdf8.com" />
 
       {/* Header */}
       <header className="bg-white shadow-sm border-b-2 border-gray-100 sticky top-0 z-50">
@@ -344,7 +335,7 @@ function HomePage() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <span className="text-2xl font-bold text-gray-900">iLove</span>
-              <span className="text-2xl font-bold text-red-500">PDF</span>
+              <span className="text-2xl font-bold text-red-500">PDF8</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -438,12 +429,7 @@ function HomePage() {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center space-x-4">
-              <button className="text-gray-700 hover:text-red-500 font-medium text-sm transition-colors">
-                Log in
-              </button>
-              <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-md font-medium text-sm transition-colors">
-                Sign up
-              </button>
+             
             </div>
 
             {/* Mobile Menu Button */}
@@ -481,12 +467,7 @@ function HomePage() {
                   Compress PDF
                 </Link>
                 <div className="pt-4 border-t space-y-3">
-                  <button className="block w-full text-left text-gray-700 hover:text-red-500 font-medium text-sm transition-colors">
-                    Log in
-                  </button>
-                  <button className="block w-full bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium text-sm transition-colors">
-                    Sign up
-                  </button>
+                  
                 </div>
               </div>
             </div>
@@ -548,10 +529,10 @@ function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose ilovepdf.cc for Your PDF Needs?
+              Why Choose ilovepdf8.com for Your PDF Needs?
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              ilovepdf.cc offers the most comprehensive suite of PDF tools with unmatched quality, speed, and security. 
+              ilovepdf8.com offers the most comprehensive suite of PDF tools with unmatched quality, speed, and security. 
               Join millions of users who trust us for their daily PDF processing needs.
             </p>
           </div>
@@ -577,10 +558,10 @@ function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How to Use PDF Tools on ilovepdf.cc
+              How to Use PDF Tools on ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Processing PDFs on ilovepdf.cc is simple and straightforward. Follow these three easy steps to get started.
+              Processing PDFs on ilovepdf8.com is simple and straightforward. Follow these three easy steps to get started.
             </p>
           </div>
           
@@ -632,7 +613,7 @@ function HomePage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Complete PDF Management Solution at ilovepdf.cc
+              Complete PDF Management Solution at ilovepdf8.com
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
@@ -642,7 +623,7 @@ function HomePage() {
                   Professional PDF Processing
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  ilovepdf.cc provides enterprise-grade PDF processing capabilities for businesses, students, and professionals. 
+                  ilovepdf8.com provides enterprise-grade PDF processing capabilities for businesses, students, and professionals. 
                   Our advanced algorithms ensure perfect quality preservation while optimizing file sizes and processing speeds.
                 </p>
                 <p className="text-gray-600">
@@ -657,7 +638,7 @@ function HomePage() {
                   Advanced Image Conversion
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Convert between multiple image formats including JPG, PNG, WebP, and TIFF with ilovepdf.cc's powerful 
+                  Convert between multiple image formats including JPG, PNG, WebP, and TIFF with ilovepdf8.com's powerful 
                   conversion engine. Our tools maintain image quality while optimizing for web performance and storage efficiency.
                 </p>
                 <p className="text-gray-600">
@@ -669,7 +650,7 @@ function HomePage() {
             
             <div className="bg-gray-50 rounded-lg p-8 mb-12">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
-                Why Millions Choose ilovepdf.cc for PDF Processing
+                Why Millions Choose ilovepdf8.com for PDF Processing
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-start">
@@ -719,7 +700,7 @@ function HomePage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Frequently Asked Questions About ilovepdf.cc
+              Frequently Asked Questions About ilovepdf8.com
             </h2>
             <p className="text-lg text-gray-600">
               Find answers to common questions about our PDF tools and services
@@ -762,7 +743,7 @@ function HomePage() {
             Trusted by Millions Worldwide
           </h2>
           <p className="text-lg text-gray-600 mb-12">
-            ilovepdf.cc has become the go-to platform for PDF processing globally
+            ilovepdf8.com has become the go-to platform for PDF processing globally
           </p>
           
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -798,7 +779,7 @@ function HomePage() {
               Works on Every Device
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              ilovepdf.cc is fully responsive and optimized for all devices. Process PDFs anywhere, anytime.
+              ilovepdf8.com is fully responsive and optimized for all devices. Process PDFs anywhere, anytime.
             </p>
           </div>
           
@@ -843,7 +824,7 @@ function HomePage() {
             Start Processing Your PDFs Now
           </h2>
           <p className="text-xl text-red-100 mb-8">
-            Join millions of users who trust ilovepdf.cc for their daily PDF needs. All tools are free and work instantly.
+            Join millions of users who trust ilovepdf8.com for their daily PDF needs. All tools are free and work instantly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -862,7 +843,7 @@ function HomePage() {
             </Link>
           </div>
           <p className="text-red-100 mt-6 text-sm">
-            Free to use • No registration required • Works on ilovepdf.cc
+            Free to use • No registration required • Works on ilovepdf8.com
           </p>
         </div>
       </section>
@@ -878,7 +859,7 @@ function HomePage() {
                 <span className="text-xl font-bold text-red-500">PDF</span>
               </Link>
               <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                ilovepdf.cc - Your complete PDF solution. Every tool you need to process, convert, and manage PDF files online. Fast, secure, and 100% free.
+                ilovepdf8.com - Your complete PDF solution. Every tool you need to process, convert, and manage PDF files online. Fast, secure, and 100% free.
               </p>
               <div className="flex space-x-3">
                 <a href="#" className="w-8 h-8 bg-gray-200 hover:bg-red-500 hover:text-white rounded flex items-center justify-center transition-colors">
@@ -930,7 +911,7 @@ function HomePage() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">COMPANY</h3>
               <ul className="space-y-3 text-sm">
-                <li><a href="/about-us" className="text-gray-600 hover:text-red-500 transition-colors">About ilovepdf.cc</a></li>
+                <li><a href="/about-us" className="text-gray-600 hover:text-red-500 transition-colors">About ilovepdf8.com</a></li>
                 <li><a href="/contact-us" className="text-gray-600 hover:text-red-500 transition-colors">Contact Us</a></li>
                 <li><a href="/privacy" className="text-gray-600 hover:text-red-500 transition-colors">Privacy Policy</a></li>
                 <li><a href="/terms" className="text-gray-600 hover:text-red-500 transition-colors">Terms of Service</a></li>
@@ -942,7 +923,7 @@ function HomePage() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-12 pt-8 text-center">
             <p className="text-sm text-gray-600">
-              © 2025 ilovepdf.cc - Free Online PDF Tools. Made with{" "}
+              © 2025 ilovepdf8.com - Free Online PDF Tools. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
               for PDF lovers worldwide. All rights reserved.
             </p>
@@ -959,9 +940,9 @@ function HomePage() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
-          "name": "ilovepdf.cc - Free PDF Tools Online",
+          "name": "ilovepdf8.com - Free PDF Tools Online",
           "description": "Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use PDF processing.",
-          "url": "https://ilovepdf.cc",
+          "url": "https://ilovepdf8.com",
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "Web Browser",
           "offers": {
@@ -976,8 +957,8 @@ function HomePage() {
           },
           "creator": {
             "@type": "Organization",
-            "name": "ilovepdf.cc",
-            "url": "https://ilovepdf.cc"
+            "name": "ilovepdf8.com",
+            "url": "https://ilovepdf8.com"
           }
         })}
       </script>
