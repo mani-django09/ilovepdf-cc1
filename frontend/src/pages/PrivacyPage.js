@@ -1,35 +1,18 @@
 import React from "react"
+import Layout from "../components/Layout"
 import { ArrowLeft, Shield, Lock, Eye, Trash2, Globe, Clock, Server } from "lucide-react"
 
 function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* SEO Meta Tags */}
+  <Layout>      
+  {/* SEO Meta Tags */}
       <title>Privacy Policy - ilovepdf8.com | Your Data Security & Privacy</title>
       <meta name="description" content="Learn how ilovepdf8.com protects your privacy and handles your data. We use SSL encryption, auto-delete files, and never store your personal documents." />
       <meta name="keywords" content="privacy policy, ilovepdf8.com privacy, data protection, file security, ssl encryption" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://ilovepdf8.com/privacy" />
 
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center">
-            <a 
-              href="/" 
-              className="flex items-center text-gray-600 hover:text-red-500 transition-colors"
-            >
-              <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Home
-            </a>
-            <div className="ml-4 flex items-center">
-              <span className="text-xl font-bold text-gray-900">iLove</span>
-              <span className="text-xl font-bold text-red-500">PDF</span>
-            </div>
-          </div>
-        </div>
-      </header>
-
+      
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-12">
         {/* Hero Section */}
@@ -377,40 +360,9 @@ function PrivacyPolicy() {
             </div>
           </div>
         </div>
+        </main>
 
-        {/* Footer Navigation */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <a 
-              href="/" 
-              className="text-red-500 hover:text-red-600 font-medium transition-colors"
-            >
-              ← Back to ilovepdf8.com
-            </a>
-            <div className="flex gap-4 text-sm">
-              <a 
-                href="/terms" 
-                className="text-gray-600 hover:text-red-500 transition-colors"
-              >
-                Terms of Service
-              </a>
-              <a 
-                href="/about" 
-                className="text-gray-600 hover:text-red-500 transition-colors"
-              >
-                About Us
-              </a>
-              <a 
-                href="/contact" 
-                className="text-gray-600 hover:text-red-500 transition-colors"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
+        </Layout>
   )
 }
 

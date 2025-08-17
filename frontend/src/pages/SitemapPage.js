@@ -25,12 +25,10 @@ function SitemapPage() {
       icon: <FileText className="h-6 w-6" />,
       description: "Essential PDF processing tools for everyday use",
       links: [
-        { title: "Merge PDF", href: "/tools/merge", description: "Combine multiple PDF files into one document" },
-        { title: "Split PDF", href: "/tools/split", description: "Extract pages or split PDF into multiple files" },
-        { title: "Compress PDF", href: "/tools/compress", description: "Reduce PDF file size while maintaining quality" },
-        { title: "Edit PDF", href: "/tools/edit-pdf", description: "Add text, images, and annotations to PDFs" },
-        { title: "Rotate PDF", href: "/tools/rotate-pdf", description: "Rotate PDF pages to correct orientation" },
-        { title: "Protect PDF", href: "/tools/protect-pdf", description: "Add password protection to PDF files" }
+        { title: "Merge PDF", href: "/merge-pdf", description: "Combine multiple PDF files into one document" },
+        { title: "Split PDF", href: "/split-pdf", description: "Extract pages or split PDF into multiple files" },
+        { title: "Compress PDF", href: "/compress-pdf", description: "Reduce PDF file size while maintaining quality" },
+        { title: "Edit PDF", href: "/edit-pdf", description: "Add text, images, and annotations to PDFs" },
       ]
     },
     {
@@ -38,12 +36,8 @@ function SitemapPage() {
       icon: <RefreshCw className="h-6 w-6" />,
       description: "Convert PDFs to and from various file formats",
       links: [
-        { title: "PDF to Word", href: "/tools/pdf-to-word", description: "Convert PDF to editable Word documents" },
-        { title: "Word to PDF", href: "/tools/word-to-pdf", description: "Convert Word documents to PDF format" },
-        { title: "PDF to Excel", href: "/tools/pdf-to-excel", description: "Extract data from PDF to Excel spreadsheets" },
-        { title: "Excel to PDF", href: "/tools/excel-to-pdf", description: "Convert Excel files to PDF format" },
-        { title: "PDF to PowerPoint", href: "/tools/pdf-to-powerpoint", description: "Convert PDF to editable presentations" },
-        { title: "PowerPoint to PDF", href: "/tools/powerpoint-to-pdf", description: "Convert presentations to PDF format" }
+        { title: "PDF to Word", href: "/pdf-to-word", description: "Convert PDF to editable Word documents" },
+        { title: "Word to PDF", href: "/word-to-pdf", description: "Convert Word documents to PDF format" },
       ]
     },
     {
@@ -51,11 +45,10 @@ function SitemapPage() {
       icon: <Image className="h-6 w-6" />,
       description: "Convert between PDF and image formats",
       links: [
-        { title: "PDF to JPG", href: "/tools/pdf-to-jpg", description: "Convert PDF pages to JPG images" },
-        { title: "JPG to PDF", href: "/tools/jpg-to-pdf", description: "Convert JPG images to PDF format" },
-        { title: "PDF to PNG", href: "/tools/pdf-to-png", description: "Convert PDF pages to PNG with transparency" },
-        { title: "PNG to PDF", href: "/tools/png-to-pdf", description: "Convert PNG images to PDF documents" },
-        { title: "Extract Images", href: "/tools/extract-images", description: "Extract all images from PDF files" }
+        { title: "PDF to JPG", href: "/pdf-to-jpg", description: "Convert PDF pages to JPG images" },
+        { title: "JPG to PDF", href: "/jpg-to-pdf", description: "Convert JPG images to PDF format" },
+        { title: "PDF to PNG", href: "/pdf-to-png", description: "Convert PDF pages to PNG with transparency" },
+        { title: "PNG to PDF", href: "/png-to-pdf", description: "Convert PNG images to PDF documents" },
       ]
     },
     {
@@ -63,27 +56,14 @@ function SitemapPage() {
       icon: <Image className="h-6 w-6" />,
       description: "Convert between modern image formats",
       links: [
-        { title: "WebP to PNG", href: "/tools/webp-to-png", description: "Convert WebP images to PNG format" },
-        { title: "PNG to WebP", href: "/tools/png-to-webp", description: "Optimize PNG images to WebP format" },
-        { title: "JPG to PNG", href: "/tools/jpg-to-png", description: "Convert JPG images to PNG format" },
-        { title: "PNG to JPG", href: "/tools/png-to-jpg", description: "Convert PNG images to JPG format" },
-        { title: "Image Resize", href: "/tools/image-resize", description: "Resize images to custom dimensions" },
-        { title: "Image Compress", href: "/tools/image-compress", description: "Reduce image file sizes" }
+        { title: "WebP to PNG", href: "/webp-to-png", description: "Convert WebP images to PNG format" },
+        { title: "PNG to WebP", href: "/png-to-webp", description: "Optimize PNG images to WebP format" },
+        { title: "JPG to PNG", href: "/jpg-to-png", description: "Convert JPG images to PNG format" },
+        { title: "PNG to JPG", href: "/png-to-jpg", description: "Convert PNG images to JPG format" },
       ]
     },
-    {
-      title: "Advanced PDF Tools",
-      icon: <Settings className="h-6 w-6" />,
-      description: "Professional PDF editing and management tools",
-      links: [
-        { title: "Extract Pages", href: "/tools/extract-pages", description: "Extract specific pages from PDF files" },
-        { title: "Remove Pages", href: "/tools/remove-pages", description: "Delete unwanted pages from PDFs" },
-        { title: "Reorder Pages", href: "/tools/reorder-pages", description: "Rearrange PDF pages in custom order" },
-        { title: "Watermark PDF", href: "/tools/watermark-pdf", description: "Add text or image watermarks to PDFs" },
-        { title: "Unlock PDF", href: "/tools/unlock-pdf", description: "Remove password protection from PDFs" },
-        { title: "Add Page Numbers", href: "/tools/add-page-numbers", description: "Add page numbers to PDF documents" }
-      ]
-    },
+    
+     
     {
       title: "Information & Support",
       icon: <Info className="h-6 w-6" />,
@@ -176,13 +156,13 @@ function SitemapPage() {
             </Link>
 
             <nav className="hidden lg:flex items-center space-x-8">
-                <Link to="/tools/merge" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
+                <Link to="/merge-pdf" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
                 Merge PDF
               </Link>
-              <Link to="/tools/split" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
+              <Link to="/split-pdf" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
                 Split PDF
               </Link>
-              <Link to="/tools/compress" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
+              <Link to="/compress-pdf" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
                 Compress PDF
               </Link>
               <Link to="/tools" className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors">
@@ -210,13 +190,13 @@ function SitemapPage() {
           {mobileMenuOpen && (
             <div className="lg:hidden bg-white border-t shadow-lg">
               <div className="px-4 py-4 space-y-4">
-                <Link to="/tools/merge" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/merge-pdf" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
                   Merge PDF
                 </Link>
-                <Link to="/tools/split" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/split-pdf" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
                   Split PDF
                 </Link>
-                <Link to="/tools/compress" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/compress-pdf" className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors" onClick={() => setMobileMenuOpen(false)}>
                   Compress PDF
                 </Link>
               </div>
@@ -291,7 +271,7 @@ function SitemapPage() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <Link
-              to="/tools/merge"
+              to="/merge-pdf"
               className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"
             >
               <FileText className="h-8 w-8 text-red-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -300,7 +280,7 @@ function SitemapPage() {
               </h3>
             </Link>
             <Link
-              to="/tools/split"
+              to="/split-pdf"
               className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"
             >
               <FileText className="h-8 w-8 text-green-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -309,7 +289,7 @@ function SitemapPage() {
               </h3>
             </Link>
             <Link
-              to="/tools/compress"
+              to="/compress-pdf"
               className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"
             >
               <Settings className="h-8 w-8 text-blue-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -318,7 +298,7 @@ function SitemapPage() {
               </h3>
             </Link>
             <Link
-              to="/tools/png-to-webp"
+              to="/png-to-webp"
               className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow group"
             >
               <Image className="h-8 w-8 text-purple-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -347,20 +327,20 @@ function SitemapPage() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">MAIN TOOLS</h3>
               <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/merge" className="text-gray-600 hover:text-red-500 transition-colors">Merge PDF</Link></li>
-                <li><Link to="/tools/split" className="text-gray-600 hover:text-red-500 transition-colors">Split PDF</Link></li>
-                <li><Link to="/tools/compress" className="text-gray-600 hover:text-red-500 transition-colors">Compress PDF</Link></li>
-                <li><Link to="/tools/edit-pdf" className="text-gray-600 hover:text-red-500 transition-colors">Edit PDF</Link></li>
+                <li><Link to="/merge-pdf" className="text-gray-600 hover:text-red-500 transition-colors">Merge PDF</Link></li>
+                <li><Link to="/split-pdf" className="text-gray-600 hover:text-red-500 transition-colors">Split PDF</Link></li>
+                <li><Link to="/compress-pdf" className="text-gray-600 hover:text-red-500 transition-colors">Compress PDF</Link></li>
+                <li><Link to="/edit-pdf" className="text-gray-600 hover:text-red-500 transition-colors">Edit PDF</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">CONVERT</h3>
               <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/pdf-to-word" className="text-gray-600 hover:text-red-500 transition-colors">PDF to Word</Link></li>
-                <li><Link to="/tools/png-to-pdf" className="text-gray-600 hover:text-red-500 transition-colors">PNG to PDF</Link></li>
-                <li><Link to="/tools/png-to-webp" className="text-gray-600 hover:text-red-500 transition-colors">PNG to WebP</Link></li>
-                <li><Link to="/tools/webp-to-png" className="text-gray-600 hover:text-red-500 transition-colors">WebP to PNG</Link></li>
+                <li><Link to="/pdf-to-word" className="text-gray-600 hover:text-red-500 transition-colors">PDF to Word</Link></li>
+                <li><Link to="/png-to-pdf" className="text-gray-600 hover:text-red-500 transition-colors">PNG to PDF</Link></li>
+                <li><Link to="/png-to-webp" className="text-gray-600 hover:text-red-500 transition-colors">PNG to WebP</Link></li>
+                <li><Link to="/webp-to-png" className="text-gray-600 hover:text-red-500 transition-colors">WebP to PNG</Link></li>
               </ul>
             </div>
 

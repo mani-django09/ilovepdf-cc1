@@ -2,11 +2,10 @@
 
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { useLocation } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
+import Layout from "../components/Layout"
 import {
-  ChevronDown,
-  Menu,
-  X,
-  Heart,
   Globe,
   Shield,
   Zap,
@@ -310,6 +309,8 @@ const enhancedFeatures = [
 ]
 
 function HomePage() {
+  const location = useLocation()
+  const canonicalUrl = `https://ilovepdf8.com${location.pathname}`
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [convertDropdownOpen, setConvertDropdownOpen] = useState(false)
   const [allToolsDropdownOpen, setAllToolsDropdownOpen] = useState(false)
@@ -317,214 +318,54 @@ function HomePage() {
 
   // Convert PDF tools for dropdown - updated with PNG tools
   const convertTools = [
-    { title: "PDF to Word", href: "/tools/pdf-to-word" },
-    { title: "PDF to JPG", href: "/tools/pdf-to-jpg" },
-    { title: "PDF to PNG", href: "/tools/pdf-to-png" },
-    { title: "Word to PDF", href: "/tools/word-to-pdf" },
-    { title: "JPG to PDF", href: "/tools/jpg-to-pdf" },
-    { title: "PNG to PDF", href: "/tools/png-to-pdf" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "PNG to WebP", href: "/tools/png-to-webp" },
+    { title: "PDF to Word", href: "/pdf-to-word" },
+    { title: "PDF to JPG", href: "/pdf-to-jpg" },
+    { title: "PDF to PNG", href: "/pdf-to-png" },
+    { title: "Word to PDF", href: "/word-to-pdf" },
+    { title: "JPG to PDF", href: "/jpg-to-pdf" },
+    { title: "PNG to PDF", href: "/png-to-pdf" },
+    { title: "WebP to PNG", href: "/webp-to-png" },
+    { title: "PNG to WebP", href: "/png-to-webp" },
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50">
-      {/* Enhanced Meta Tags */}
-      <title>Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf8.com</title>
-      <meta
-        name="description"
-        content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use. No software installation required. Try ilovepdf8.com now!"
-      />
-      <meta
-        name="keywords"
-        content="pdf tools, merge pdf, split pdf, compress pdf, pdf to word, word to pdf, pdf converter, online pdf editor, png to pdf, pdf to png, ilovepdf8.com"
-      />
-      <meta name="author" content="ilovepdf8.com" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf8.com" />
-      <meta
-        property="og:description"
-        content="Complete suite of free PDF tools. Merge, split, compress, convert, and edit PDF files online. Fast, secure, and works on any device."
-      />
-      <meta property="og:url" content="https://ilovepdf8.com" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="ilovepdf8.com" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Free PDF Tools Online - ilovepdf8.com" />
-      <meta
-        name="twitter:description"
-        content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use."
-      />
-      <link rel="canonical" href="https://ilovepdf8.com" />
+    <Layout>
+      <Helmet>
+        <title>Free PDF Tools Online - Merge, Split, Compress PDF | ilovepdf8.com</title>
+        <meta
+          name="description"
+          content="Free online PDF tools to merge, split, compress, convert, and edit PDF files. Fast, secure, and easy to use. No software installation required. Try ilovepdf8.com now!"
+        />
+        <meta
+          name="keywords"
+          content="pdf tools, merge pdf, split pdf, compress pdf, pdf to word, word to pdf, pdf converter, online pdf editor, png to pdf, pdf to png, ilovepdf8.com"
+        />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:url" content={canonicalUrl} />
+      </Helmet>
 
-      <header className="bg-white/95 backdrop-blur-sm shadow-lg border-b border-cyan-100 sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex justify-between items-center h-16 px-4">
-            {/* Logo */}
-            <Link to="/" className="flex items-center group">
-              <span className="text-2xl font-bold text-gray-900 group-hover:text-cyan-600 transition-colors">
-                iLove
-              </span>
-              <span className="text-2xl font-bold text-cyan-600 group-hover:text-emerald-500 transition-colors">
-                PDF8
-              </span>
-            </Link>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
-              <Link
-                to="/tools/merge"
-                className="text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase tracking-wider transition-colors duration-300 relative group"
-              >
-                Merge PDF
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-              <Link
-                to="/tools/split"
-                className="text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase tracking-wider transition-colors duration-300 relative group"
-              >
-                Split PDF
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-              <Link
-                to="/tools/compress"
-                className="text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase tracking-wider transition-colors duration-300 relative group"
-              >
-                Compress PDF
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-
-              <div className="relative">
-                <button
-                  className="text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase tracking-wider flex items-center transition-colors duration-300"
-                  onMouseEnter={() => setConvertDropdownOpen(true)}
-                  onMouseLeave={() => setConvertDropdownOpen(false)}
-                >
-                  Convert PDF
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-
-                {convertDropdownOpen && (
-                  <div
-                    className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-cyan-100 py-2 z-50 backdrop-blur-sm"
-                    onMouseEnter={() => setConvertDropdownOpen(true)}
-                    onMouseLeave={() => setConvertDropdownOpen(false)}
-                  >
-                    {convertTools.map((tool, index) => (
-                      <Link
-                        key={index}
-                        to={tool.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 transition-colors duration-200"
-                      >
-                        {tool.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              <div className="relative">
-                <button
-                  className="text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase tracking-wider flex items-center transition-colors duration-300"
-                  onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                  onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                >
-                  All PDF tools
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-
-                {allToolsDropdownOpen && (
-                  <div
-                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-cyan-100 py-2 z-50 backdrop-blur-sm"
-                    onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                    onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                  >
-                    <div className="grid grid-cols-1 gap-0">
-                      {pdfTools.slice(0, 8).map((tool, index) => (
-                        <Link
-                          key={index}
-                          to={tool.href}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 transition-colors duration-200"
-                        >
-                          {tool.title}
-                        </Link>
-                      ))}
-                      <div className="border-t border-cyan-100 my-1"></div>
-                      <Link
-                        to="/tools"
-                        className="block px-4 py-2 text-sm text-cyan-600 hover:bg-cyan-50 font-medium transition-colors duration-200"
-                      >
-                        View all tools →
-                      </Link>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </nav>
-
-            {/* Desktop Actions */}
-            <div className="hidden lg:flex items-center space-x-4"></div>
-
-            {/* Mobile Menu Button */}
-            <button
-              className="lg:hidden p-2 hover:bg-cyan-50 rounded-lg transition-colors duration-200"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="lg:hidden bg-white/95 backdrop-blur-sm border-t border-cyan-100 shadow-lg">
-              <div className="px-4 py-4 space-y-4">
-                <Link
-                  to="/tools/merge"
-                  className="block text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Merge PDF
-                </Link>
-                <Link
-                  to="/tools/split"
-                  className="block text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Split PDF
-                </Link>
-                <Link
-                  to="/tools/compress"
-                  className="block text-gray-700 hover:text-cyan-600 font-medium text-sm uppercase transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Compress PDF
-                </Link>
-                <div className="pt-4 border-t border-cyan-100 space-y-3"></div>
-              </div>
-            </div>
-          )}
+      <section className="relative py-8 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-gray-900 to-black"></div>
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.3),transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(16,185,129,0.3),transparent_50%)]"></div>
         </div>
-      </header>
-
-      <section className="bg-gradient-to-br from-cyan-600 via-blue-600 to-emerald-600 py-12 relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-600/20 to-emerald-600/20"></div>
         <div className="max-w-6xl mx-auto px-4 text-center relative z-10">
-          <h1 className="text-3xl lg:text-4xl font-bold text-white mb-4 leading-tight font-sans">
+          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight font-sans">
             Every tool you need to work with
-            <span className="text-cyan-200 block">PDFs in one place</span>
+            <span className="text-transparent bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text block">
+              PDFs in one place
+            </span>
           </h1>
-           <p className="text-lg text-cyan-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Every tool you need to use PDFs, at your fingertips. All tools are easy to us and 100% FREE! Can use Merge, split,
-            compress, convert and edit PDFs with just a few clicks.
+          <p className="text-lg text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+            Every tool you need to use PDFs, at your fingertips. All tools are easy to us and 100% FREE! Can use Merge,
+            split, compress, convert and edit PDFs with just a few clicks.
           </p>
-          
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-slate-50 to-cyan-50 py-20">
+      <section className="bg-gradient-to-br from-slate-50 to-cyan-50 py-8">
         <div className="max-w-6xl mx-auto px-4">
-          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {pdfTools.map((tool) => (
               <Link key={tool.id} to={tool.href} className="group">
@@ -642,7 +483,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-slate-50 to-cyan-50 py-20">
+      <section className="bg-gradient-to-br from-slate-50 to-cyan-50 py-12">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6 font-sans">
@@ -676,32 +517,32 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white py-12">
+      <section className="bg-white py-6">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4 font-sans">Trusted by Millions Worldwide</h2>
-          <p className="text-lg text-gray-600 mb-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 font-sans">Trusted by Millions Worldwide</h2>
+          <p className="text-base text-gray-600 mb-6">
             ilovepdf8.com has become the go-to platform for PDF processing globally
           </p>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-2xl p-6 shadow-lg hover:shadow-2xl">
-              <div className="text-4xl font-bold text-cyan-600 mb-2">10M+</div>
-              <div className="text-gray-700 font-semibold">Monthly Active Users</div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-xl p-4 shadow-lg hover:shadow-2xl">
+              <div className="text-3xl font-bold text-cyan-600 mb-1">10M+</div>
+              <div className="text-gray-700 font-semibold text-sm">Monthly Active Users</div>
               <div className="text-xs text-gray-500 mt-1">Growing daily</div>
             </div>
-            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl p-6 shadow-lg hover:shadow-2xl">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">500M+</div>
-              <div className="text-gray-700 font-semibold">Files Processed</div>
+            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-4 shadow-lg hover:shadow-2xl">
+              <div className="text-3xl font-bold text-emerald-600 mb-1">500M+</div>
+              <div className="text-gray-700 font-semibold text-sm">Files Processed</div>
               <div className="text-xs text-gray-500 mt-1">Since launch</div>
             </div>
-            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 shadow-lg hover:shadow-2xl">
-              <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
-              <div className="text-gray-700 font-semibold">PDF Tools Available</div>
+            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-4 shadow-lg hover:shadow-2xl">
+              <div className="text-3xl font-bold text-blue-600 mb-1">15+</div>
+              <div className="text-gray-700 font-semibold text-sm">PDF Tools Available</div>
               <div className="text-xs text-gray-500 mt-1">And growing</div>
             </div>
-            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 shadow-lg hover:shadow-2xl">
-              <div className="text-4xl font-bold text-purple-600 mb-2">170+</div>
-              <div className="text-gray-700 font-semibold">Countries Served</div>
+            <div className="group hover:transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-4 shadow-lg hover:shadow-2xl">
+              <div className="text-3xl font-bold text-purple-600 mb-1">170+</div>
+              <div className="text-gray-700 font-semibold text-sm">Countries Served</div>
               <div className="text-xs text-gray-500 mt-1">Worldwide reach</div>
             </div>
           </div>
@@ -709,7 +550,7 @@ function HomePage() {
       </section>
 
       {/* Device Compatibility Section */}
-      <section className="bg-gradient-to-br from-cyan-50 to-emerald-50 py-20">
+      <section className="bg-gradient-to-br from-cyan-50 to-emerald-50 py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-6 font-sans">Works on Every Device</h2>
@@ -752,7 +593,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-cyan-600 via-blue-600 to-emerald-600 py-12">
+      <section className="bg-gradient-to-br from-cyan-600 via-blue-600 to-emerald-600 py-8">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4 font-sans">Start Processing Your PDFs Now</h2>
           <p className="text-lg text-cyan-100 mb-8 leading-relaxed">
@@ -768,7 +609,7 @@ function HomePage() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <Link
-              to="/tools/merge"
+              to="/merge-pdf"
               className="border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-cyan-600 transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Start with Merge PDF
@@ -777,207 +618,6 @@ function HomePage() {
           </div>
         </div>
       </section>
-
-      <footer className="bg-gray-900 text-white">
-        <div className="max-w-6xl mx-auto px-4 py-16">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            {/* Logo & Description */}
-            <div className="col-span-2 md:col-span-1">
-              <Link to="/" className="flex items-center mb-6 group">
-                <span className="text-2xl font-bold text-white group-hover:text-cyan-400 transition-colors">iLove</span>
-                <span className="text-2xl font-bold text-cyan-400 group-hover:text-emerald-400 transition-colors">
-                  PDF8
-                </span>
-              </Link>
-              <p className="text-gray-300 text-sm mb-8 leading-relaxed">
-                ilovepdf8.com - Your complete PDF solution. Every tool you need to process, convert, and manage PDF
-                files online. Fast, secure, and 100% free.
-              </p>
-              <div className="flex space-x-4">
-                <a
-                  href="https://facebook.com/ilovepdf8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-600 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-                  aria-label="Follow us on Facebook"
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                  </svg>
-                </a>
-                <a
-                  href="https://twitter.com/ilovepdf8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-400 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-                  aria-label="Follow us on Twitter"
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-                  </svg>
-                </a>
-                <a
-                  href="https://linkedin.com/company/ilovepdf8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-700 hover:text-white rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-                  aria-label="Follow us on LinkedIn"
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            {/* Features */}
-            <div>
-              <h3 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">FEATURES</h3>
-              <ul className="space-y-4 text-sm">
-                <li>
-                  <Link to="/tools/merge" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    Merge PDF
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/tools/split" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    Split PDF
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/compress"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    Compress PDF
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/pdf-to-word"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    PDF to Word
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Convert */}
-            <div>
-              <h3 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">CONVERT</h3>
-              <ul className="space-y-4 text-sm">
-                <li>
-                  <Link
-                    to="/tools/word-to-pdf"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    Word to PDF
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/jpg-to-pdf"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    JPG to PDF
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/pdf-to-jpg"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    PDF to JPG
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/png-to-pdf"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    PNG to PDF
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Image Tools */}
-            <div>
-              <h3 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">IMAGE TOOLS</h3>
-              <ul className="space-y-4 text-sm">
-                <li>
-                  <Link
-                    to="/tools/webp-to-png"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    WebP to PNG
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/png-to-webp"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    PNG to WebP
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/tools/pdf-to-png"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
-                  >
-                    PDF to PNG
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company */}
-            <div>
-              <h3 className="font-bold text-white mb-6 text-sm uppercase tracking-wider">COMPANY</h3>
-              <ul className="space-y-4 text-sm">
-                <li>
-                  <a href="/about-us" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    About ilovepdf8.com
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact-us" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    Contact Us
-                  </a>
-                </li>
-                <li>
-                  <a href="/privacy" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="/terms" className="text-gray-300 hover:text-cyan-400 transition-colors duration-200">
-                    Terms of Service
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-16 pt-8 text-center">
-            <p className="text-sm text-gray-300 mb-4">
-              © 2025 ilovepdf8.com - Your go-to place for PDF tools. Made with{" "}
-              <Heart className="inline h-4 w-4 text-cyan-400 fill-current mx-1" />
-              by people who actually use PDFs. All rights reserved.
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 text-xs text-gray-400">
-              <Link to="/terms" className="hover:text-cyan-400 transition-colors duration-200">
-                Terms of Service
-              </Link>
-              <Link to="/privacy" className="hover:text-cyan-400 transition-colors duration-200">
-                Privacy Policy
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
 
       {/* Schema.org JSON-LD for SEO */}
       <script type="application/ld+json">
@@ -1007,7 +647,7 @@ function HomePage() {
           },
         })}
       </script>
-    </div>
+    </Layout>
   )
 }
 

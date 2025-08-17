@@ -1,4 +1,5 @@
 import React from "react"
+import Layout from "../components/Layout"
 import { ArrowLeft, Heart, Users, Globe, Zap, Star, Target, Award, Coffee, Code, Shield, Lightbulb } from "lucide-react"
 
 function AboutUs() {
@@ -63,7 +64,7 @@ function AboutUs() {
   ]
 
   return (
-    <div className="min-h-screen bg-white">
+    <Layout>
       {/* SEO Meta Tags */}
       <title>About Us - ilovepdf8.com | Free PDF Tools for Everyone</title>
       <meta name="description" content="Learn about ilovepdf8.com's mission to provide free, fast, and secure PDF tools for everyone. Trusted by 10M+ users worldwide since 2020." />
@@ -71,25 +72,7 @@ function AboutUs() {
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://ilovepdf8.com/about" />
 
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center">
-            <a 
-              href="/" 
-              className="flex items-center text-gray-600 hover:text-red-500 transition-colors"
-            >
-              <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Home
-            </a>
-            <div className="ml-4 flex items-center">
-              <span className="text-xl font-bold text-gray-900">iLove</span>
-              <span className="text-xl font-bold text-red-500">PDF</span>
-            </div>
-          </div>
-        </div>
-      </header>
-
+      
       {/* Main Content */}
       <main>
         {/* Hero Section */}
@@ -599,42 +582,8 @@ function AboutUs() {
             </p>
           </div>
         </section>
-
-        {/* Footer Navigation */}
-        <section className="bg-white py-8">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <a 
-                href="/" 
-                className="text-red-500 hover:text-red-600 font-medium transition-colors"
-              >
-                ← Back to ilovepdf8.com
-              </a>
-              <div className="flex gap-4 text-sm">
-                <a 
-                  href="/terms" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  Terms of Service
-                </a>
-                <a 
-                  href="/privacy" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  Privacy Policy
-                </a>
-                <a 
-                  href="/contact" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  Contact Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
-    </div>
+    </Layout>
   )
 }
 

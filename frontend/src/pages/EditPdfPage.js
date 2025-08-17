@@ -3,6 +3,8 @@
 
 import { useState, useRef, useEffect, useCallback } from "react"
 import { Link } from "react-router-dom"
+import Layout from "../components/Layout"
+
 import {
   Upload, Download, AlertCircle, Loader, X, Menu, ImageIcon, FileText, Heart,
   Type, PenTool, Square, Circle, Edit, Stamp, StickyNote, Save, Undo, Redo,
@@ -14,9 +16,6 @@ import {
 
 function EditPdfPage() {
   // All existing state management (keeping unchanged)
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [convertDropdownOpen, setConvertDropdownOpen] = useState(false)
-  const [allToolsDropdownOpen, setAllToolsDropdownOpen] = useState(false)
   const [pdfFile, setPdfFile] = useState(null)
   const [pdfDocument, setPdfDocument] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
@@ -47,17 +46,7 @@ function EditPdfPage() {
     ? "http://localhost:5000"
     : window.location.origin
 
-  // Tool navigation arrays for dropdowns
-  const convertTools = [
-    { title: "PDF to Word", href: "/tools/pdf-to-word" },
-    { title: "PDF to JPG", href: "/tools/pdf-to-jpg" },
-    { title: "PDF to PNG", href: "/tools/pdf-to-png" },
-    { title: "Word to PDF", href: "/tools/word-to-pdf" },
-    { title: "JPG to PDF", href: "/tools/jpg-to-pdf" },
-    { title: "PNG to PDF", href: "/tools/png-to-pdf" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "PNG to WebP", href: "/tools/png-to-webp" },
-  ]
+  
 
   // Enhanced FAQ with PDF editing focus
   const faqData = [
@@ -701,7 +690,7 @@ function EditPdfPage() {
   const currentPageEditableTexts = editableTexts.filter(et => et.pageNumber === currentPage)
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <Layout>
       {/* Enhanced SEO Meta Tags */}
        {typeof document !== 'undefined' && (
         <>
@@ -718,7 +707,7 @@ function EditPdfPage() {
               { name: "viewport", content: "width=device-width, initial-scale=1.0" },
               { property: "og:title", content: "Free Online PDF Editor - Edit PDF Text | ilovepdf8.com" },
               { property: "og:description", content: "Professional PDF editor for editing text in PDF documents online. Click to edit PDF text directly in your browser. Free, secure, and easy to use." },
-              { property: "og:url", content: "https://ilovepdf8.com/tools/edit-pdf" },
+              { property: "og:url", content: "https://ilovepdf8.com/edit-pdf" },
               { property: "og:type", content: "website" },
               { property: "og:site_name", content: "ilovepdf8.com" },
               { name: "twitter:card", content: "summary_large_image" },
@@ -746,156 +735,12 @@ function EditPdfPage() {
               canonical.setAttribute('rel', 'canonical')
               document.head.appendChild(canonical)
             }
-            canonical.setAttribute('href', 'https://ilovepdf8.com/tools/edit-pdf')
+            canonical.setAttribute('href', 'https://ilovepdf8.com/edit-pdf')
           })()}
         </>
       )}
 
-      {/* Enhanced Header with dropdowns */}
-      <header className="bg-white shadow-sm border-b-2 border-gray-100// Enhanced EditPdfPage.js - Part 2 (Continuing from header)
-      sticky top-0 z-40">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex justify-between items-center h-16 px-4">
-            {/* Logo */}
-            <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-gray-900">iLove</span>
-              <span className="text-2xl font-bold text-red-500">PDF</span>
-            </Link>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
-              <Link 
-                to="/tools/merge" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors duration-200"
-              >
-                Merge PDF
-              </Link>
-              <Link 
-                to="/tools/split" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors duration-200"
-              >
-                Split PDF
-              </Link>
-              <Link 
-                to="/tools/compress" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider transition-colors duration-200"
-              >
-                Compress PDF
-              </Link>
-              
-              <div className="relative">
-                <button 
-                  className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider flex items-center transition-colors duration-200"
-                  onMouseEnter={() => setConvertDropdownOpen(true)}
-                  onMouseLeave={() => setConvertDropdownOpen(false)}
-                >
-                  Convert Files
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-                
-                {convertDropdownOpen && (
-                  <div 
-                    className="absolute top-full left-0 mt-1 w-48 bg-white rounded-md shadow-lg border border-gray-200 py-1 z-50"
-                    onMouseEnter={() => setConvertDropdownOpen(true)}
-                    onMouseLeave={() => setConvertDropdownOpen(false)}
-                  >
-                    {convertTools.map((tool, index) => (
-                      <Link
-                        key={index}
-                        to={tool.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50 transition-colors duration-200"
-                      >
-                        {tool.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              <Link 
-                to="/tools/edit-pdf" 
-                className="text-red-500 hover:text-red-600 font-medium text-sm uppercase tracking-wider transition-colors duration-200"
-              >
-                Edit PDF
-              </Link>
-              
-              <div className="relative">
-                <button 
-                  className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider flex items-center transition-colors duration-200"
-                  onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                  onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                >
-                  All Tools
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-                
-                {allToolsDropdownOpen && (
-                  <div 
-                    className="absolute top-full left-0 mt-1 w-56 bg-white rounded-md shadow-lg border border-gray-200 py-1 z-50"
-                    onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                    onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                  >
-                    <Link to="/tools/merge" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50 transition-colors duration-200">Merge PDF</Link>
-                    <Link to="/tools/split" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50 transition-colors duration-200">Split PDF</Link>
-                    <Link to="/tools/compress" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50 transition-colors duration-200">Compress PDF</Link>
-                    <Link to="/tools/edit-pdf" className="block px-4 py-2 text-sm text-red-500 hover:bg-gray-50 font-medium transition-colors duration-200">Edit PDF</Link>
-                    <div className="border-t border-gray-100 my-1"></div>
-                    <Link to="/" className="block px-4 py-2 text-sm text-red-500 hover:bg-gray-50 font-medium transition-colors duration-200">View all tools →</Link>
-                  </div>
-                )}
-              </div>
-            </nav>
-
-            {/* Desktop Actions */}
-            <div className="hidden lg:flex items-center space-x-4">
-              <button className="text-gray-700 hover:text-red-500 font-medium text-sm transition-colors duration-200">
-                Log in
-              </button>
-              <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-md font-medium text-sm transition-colors duration-200">
-                Sign up
-              </button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              className="lg:hidden p-2 hover:bg-gray-100 rounded-md transition-colors duration-200"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="lg:hidden bg-white border-t shadow-lg">
-              <div className="px-4 py-4 space-y-4">
-                <Link 
-                  to="/tools/merge" 
-                  className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Merge PDF
-                </Link>
-                <Link 
-                  to="/tools/edit-pdf" 
-                  className="block text-red-500 hover:text-red-600 font-medium text-sm uppercase transition-colors duration-200"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Edit PDF
-                </Link>
-                <div className="pt-4 border-t space-y-3">
-                  <button className="block w-full text-left text-gray-700 hover:text-red-500 font-medium text-sm transition-colors duration-200">
-                    Log in
-                  </button>
-                  <button className="block w-full bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium text-sm transition-colors duration-200">
-                    Sign up
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
+      
 
       {/* Enhanced Hero Section */}
       <section className="bg-white py-8">
@@ -1579,14 +1424,14 @@ function EditPdfPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/tools/pdf-to-jpg"
+              to="/pdf-to-jpg"
               className="bg-white text-red-500 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 text-lg inline-flex items-center justify-center"
             >
               <ImageIcon className="h-5 w-5 mr-2" />
               Convert PDF to Images
             </Link>
             <Link
-              to="/tools/merge"
+              to="/merge"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-red-500 transition-colors duration-200 text-lg inline-flex items-center justify-center"
             >
               <Plus className="h-5 w-5 mr-2" />
@@ -1599,71 +1444,7 @@ function EditPdfPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            <div className="col-span-2 md:col-span-1">
-              <Link to="/" className="flex items-center mb-4">
-                <span className="text-xl font-bold text-gray-900">iLove</span>
-                <span className="text-xl font-bold text-red-500">PDF</span>
-              </Link>
-              <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                Professional PDF editing tools and document converters. All tools are 100% FREE and designed for professional use.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">PDF TOOLS</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/edit-pdf" className="text-red-500 hover:text-red-600 transition-colors duration-200 font-medium">Edit PDF</Link></li>
-                <li><Link to="/tools/merge" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Merge PDF</Link></li>
-                <li><Link to="/tools/split" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Split PDF</Link></li>
-                <li><Link to="/tools/compress" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Compress PDF</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">CONVERT</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/pdf-to-jpg" className="text-gray-600 hover:text-red-500 transition-colors duration-200">PDF to JPG</Link></li>
-                <li><Link to="/tools/pdf-to-png" className="text-gray-600 hover:text-red-500 transition-colors duration-200">PDF to PNG</Link></li>
-                <li><Link to="/tools/jpg-to-pdf" className="text-gray-600 hover:text-red-500 transition-colors duration-200">JPG to PDF</Link></li>
-                <li><Link to="/tools/png-to-pdf" className="text-gray-600 hover:text-red-500 transition-colors duration-200">PNG to PDF</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">EDITING</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/edit-pdf" className="text-gray-600 hover:text-red-500 transition-colors duration-200">PDF Text Editor</Link></li>
-                <li><Link to="/tools/watermark" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Watermark PDF</Link></li>
-                <li><Link to="/tools/rotate" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Rotate PDF</Link></li>
-                <li><Link to="/tools/unlock" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Unlock PDF</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">COMPANY</h3>
-              <ul className="space-y-3 text-sm">
-                <li><a href="/about" className="text-gray-600 hover:text-red-500 transition-colors duration-200">About us</a></li>
-                <li><a href="/blog" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Blog</a></li>
-                <li><a href="/help" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Help</a></li>
-                <li><a href="/contact" className="text-gray-600 hover:text-red-500 transition-colors duration-200">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-200 mt-12 pt-8 text-center">
-            <p className="text-sm text-gray-600">
-              © 2024 ilovepdf8.com. Professional PDF Editor. Made with{" "}
-              <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
-              for PDF editing professionals worldwide.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </Layout>
   )
 }
 

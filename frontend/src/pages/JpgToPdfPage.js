@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react"
 import { Link } from "react-router-dom"
+import Layout from "../components/Layout"
 import {
   Upload,
   Download,
@@ -44,9 +45,6 @@ import {
 } from "lucide-react"
 
 function JpgToPdfPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [convertDropdownOpen, setConvertDropdownOpen] = useState(false)
-  const [allToolsDropdownOpen, setAllToolsDropdownOpen] = useState(false)
   const [imageFiles, setImageFiles] = useState([])
   const [isDragOver, setIsDragOver] = useState(false)
   const [isConverting, setIsConverting] = useState(false)
@@ -106,7 +104,7 @@ function JpgToPdfPage() {
     updateProperty('og:title', 'JPG to PDF Converter - Convert Images to PDF Online Free')
     updateProperty('og:description', 'Convert JPG to PDF online for free with ilovepdf8.com. Transform images into professional PDF documents instantly.')
     updateProperty('og:type', 'website')
-    updateProperty('og:url', 'https://ilovepdf8.com/tools/jpg-to-pdf')
+    updateProperty('og:url', 'https://ilovepdf8.com/jpg-to-pdf')
     updateProperty('og:site_name', 'ilovepdf8.com')
     updateProperty('og:image', 'https://ilovepdf8.com/images/jpg-to-pdf-og.jpg')
 
@@ -123,7 +121,7 @@ function JpgToPdfPage() {
       canonical.rel = 'canonical'
       document.head.appendChild(canonical)
     }
-    canonical.href = 'https://ilovepdf8.com/tools/jpg-to-pdf'
+    canonical.href = 'https://ilovepdf8.com/jpg-to-pdf'
 
     // Structured Data (JSON-LD)
     const structuredData = {
@@ -131,7 +129,7 @@ function JpgToPdfPage() {
       "@type": "WebApplication",
       "name": "JPG to PDF Converter",
       "description": "Convert JPG to PDF online for free with ilovepdf8.com. Transform images into professional PDF documents instantly.",
-      "url": "https://ilovepdf8.com/tools/jpg-to-pdf",
+      "url": "https://ilovepdf8.com/jpg-to-pdf",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "Any",
       "offers": {
@@ -159,17 +157,7 @@ function JpgToPdfPage() {
     }
   }, [])
 
-  // Convert tools for dropdown
-  const convertTools = [
-    { title: "PDF to Word", href: "/tools/pdf-to-word" },
-    { title: "PDF to JPG", href: "/tools/pdf-to-jpg" },
-    { title: "PDF to PNG", href: "/tools/pdf-to-png" },
-    { title: "Word to PDF", href: "/tools/word-to-pdf" },
-    { title: "JPG to PDF", href: "/tools/jpg-to-pdf" },
-    { title: "PNG to PDF", href: "/tools/png-to-pdf" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "PNG to WebP", href: "/tools/png-to-webp" },
-  ]
+  
 
   const faqData = [
     {
@@ -521,156 +509,7 @@ function JpgToPdfPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b-2 border-gray-100">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex justify-between items-center h-16 px-4">
-            {/* Logo */}
-            <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-gray-900">iLove</span>
-              <span className="text-2xl font-bold text-red-500">PDF8</span>
-              <span className="text-sm text-gray-500 ml-1">.com</span>
-            </Link>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
-              <Link 
-                to="/tools/merge" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider"
-              >
-                Merge PDF
-              </Link>
-              <Link 
-                to="/tools/split" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider"
-              >
-                Split PDF
-              </Link>
-              <Link 
-                to="/tools/compress" 
-                className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider"
-              >
-                Compress PDF
-              </Link>
-              
-              <div className="relative">
-                <button 
-                  className="text-red-500 hover:text-red-600 font-medium text-sm uppercase tracking-wider flex items-center"
-                  onMouseEnter={() => setConvertDropdownOpen(true)}
-                  onMouseLeave={() => setConvertDropdownOpen(false)}
-                >
-                  Convert Files
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-                
-                {convertDropdownOpen && (
-                  <div 
-                    className="absolute top-full left-0 mt-1 w-48 bg-white rounded-md shadow-lg border border-gray-200 py-1 z-50"
-                    onMouseEnter={() => setConvertDropdownOpen(true)}
-                    onMouseLeave={() => setConvertDropdownOpen(false)}
-                  >
-                    {convertTools.map((tool, index) => (
-                      <Link
-                        key={index}
-                        to={tool.href}
-                        className={`block px-4 py-2 text-sm hover:bg-gray-50 ${
-                          tool.title === "JPG to PDF" ? "text-red-500 font-medium" : "text-gray-700 hover:text-red-500"
-                        }`}
-                      >
-                        {tool.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-              
-              <div className="relative">
-                <button 
-                  className="text-gray-700 hover:text-red-500 font-medium text-sm uppercase tracking-wider flex items-center"
-                  onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                  onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                >
-                  All Tools
-                  <ChevronDown className="ml-1 h-3 w-3" />
-                </button>
-                
-                {allToolsDropdownOpen && (
-                  <div 
-                    className="absolute top-full left-0 mt-1 w-56 bg-white rounded-md shadow-lg border border-gray-200 py-1 z-50"
-                    onMouseEnter={() => setAllToolsDropdownOpen(true)}
-                    onMouseLeave={() => setAllToolsDropdownOpen(false)}
-                  >
-                    <div className="grid grid-cols-1 gap-0">
-                      <Link to="/tools/merge" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50">Merge PDF</Link>
-                      <Link to="/tools/split" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50">Split PDF</Link>
-                      <Link to="/tools/compress" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50">Compress PDF</Link>
-                      <Link to="/tools/pdf-to-png" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50">PDF to PNG</Link>
-                      <Link to="/tools/png-to-pdf" className="block px-4 py-2 text-sm text-gray-700 hover:text-red-500 hover:bg-gray-50">PNG to PDF</Link>
-                      <Link to="/tools/jpg-to-pdf" className="block px-4 py-2 text-sm text-red-500 hover:bg-gray-50 font-medium">JPG to PDF</Link>
-                      <div className="border-t border-gray-100 my-1"></div>
-                      <Link
-                        to="/"
-                        className="block px-4 py-2 text-sm text-red-500 hover:bg-gray-50 font-medium"
-                      >
-                        View all tools →
-                      </Link>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </nav>
-
-            {/* Desktop Actions */}
-            <div className="hidden lg:flex items-center space-x-4">
-              <button className="text-gray-700 hover:text-red-500 font-medium text-sm">
-                Log in
-              </button>
-              <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-md font-medium text-sm transition-colors">
-                Sign up
-              </button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              className="lg:hidden p-2"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="lg:hidden bg-white border-t shadow-lg">
-              <div className="px-4 py-4 space-y-4">
-                <Link 
-                  to="/tools/merge" 
-                  className="block text-gray-700 hover:text-red-500 font-medium text-sm uppercase"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Merge PDF
-                </Link>
-                <Link 
-                  to="/tools/jpg-to-pdf" 
-                  className="block text-red-500 hover:text-red-600 font-medium text-sm uppercase"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  JPG to PDF
-                </Link>
-                <div className="pt-4 border-t space-y-3">
-                  <button className="block w-full text-left text-gray-700 hover:text-red-500 font-medium text-sm">
-                    Log in
-                  </button>
-                  <button className="block w-full bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium text-sm">
-                    Sign up
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
+      <Layout>
 
       {/* Hero Section - SEO Optimized */}
       <section className="bg-white py-8">
@@ -1433,7 +1272,7 @@ function JpgToPdfPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Link
-              to="/tools/pdf-to-jpg"
+              to="/pdf-to-jpg"
               className="bg-white text-red-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
             >
               <div className="flex items-center justify-center">
@@ -1442,7 +1281,7 @@ function JpgToPdfPage() {
               </div>
             </Link>
             <Link
-              to="/tools/png-to-pdf"
+              to="/png-to-pdf"
               className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-red-600 transition-all transform hover:scale-105"
             >
               <div className="flex items-center justify-center">
@@ -1474,88 +1313,7 @@ function JpgToPdfPage() {
         </div>
       </section>
 
-      {/* Enhanced Footer */}
-      <footer className="bg-gray-900 text-white">
-        <div className="max-w-6xl mx-auto px-4 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            <div className="col-span-2 md:col-span-1">
-              <Link to="/" className="flex items-center mb-6">
-                <span className="text-2xl font-bold text-white">iLove</span>
-                <span className="text-2xl font-bold text-red-500">PDF</span>
-                <span className="text-lg text-gray-400 ml-1">.cc</span>
-              </Link>
-              <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                The ultimate destination for PDF tools and image conversion. Transform, merge, split, 
-                and convert your documents with professional quality and complete security.
-              </p>
-              <div className="flex space-x-4">
-                <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-500 transition-colors cursor-pointer">
-                  <Heart className="h-4 w-4" />
-                </div>
-                <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-500 transition-colors cursor-pointer">
-                  <Star className="h-4 w-4" />
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">POPULAR TOOLS</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/merge" className="text-gray-400 hover:text-red-400 transition-colors">Merge PDF</Link></li>
-                <li><Link to="/tools/split" className="text-gray-400 hover:text-red-400 transition-colors">Split PDF</Link></li>
-                <li><Link to="/tools/compress" className="text-gray-400 hover:text-red-400 transition-colors">Compress PDF</Link></li>
-                <li><Link to="/tools/pdf-to-word" className="text-gray-400 hover:text-red-400 transition-colors">PDF to Word</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">CONVERT FILES</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/pdf-to-png" className="text-gray-400 hover:text-red-400 transition-colors">PDF to PNG</Link></li>
-                <li><Link to="/tools/png-to-pdf" className="text-gray-400 hover:text-red-400 transition-colors">PNG to PDF</Link></li>
-                <li><Link to="/tools/jpg-to-pdf" className="text-gray-400 hover:text-red-400 transition-colors font-medium">JPG to PDF</Link></li>
-                <li><Link to="/tools/pdf-to-jpg" className="text-gray-400 hover:text-red-400 transition-colors">PDF to JPG</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">IMAGE TOOLS</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link to="/tools/png-to-webp" className="text-gray-400 hover:text-red-400 transition-colors">PNG to WebP</Link></li>
-                <li><Link to="/tools/webp-to-png" className="text-gray-400 hover:text-red-400 transition-colors">WebP to PNG</Link></li>
-                <li><Link to="/tools/edit-pdf" className="text-gray-400 hover:text-red-400 transition-colors">Edit PDF</Link></li>
-                <li><Link to="/tools/watermark" className="text-gray-400 hover:text-red-400 transition-colors">Watermark PDF</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">COMPANY</h3>
-              <ul className="space-y-3 text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">About ilovepdf8.com</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Blog & Guides</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Help Center</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Contact Support</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center">
-              <p className="text-sm text-gray-400 mb-4 sm:mb-0">
-                © 2024 ilovepdf8.com. Made with{" "}
-                <Heart className="inline h-4 w-4 text-red-500 fill-current mx-1" />
-                for PDF and image lovers worldwide.
-              </p>
-              <div className="flex space-x-6 text-sm">
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Privacy Policy</a>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Terms of Service</a>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">Cookies</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </Layout>
   )
 }
 

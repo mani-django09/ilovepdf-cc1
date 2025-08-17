@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Layout from "../components/Layout"
 import { ArrowLeft, Mail, MessageSquare, Phone, MapPin, Clock, Send, CheckCircle, AlertCircle, Globe, Heart, Zap, Shield } from "lucide-react"
 
 function ContactUs() {
@@ -206,26 +207,7 @@ function ContactUs() {
   ]
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center">
-            <a 
-              href="/" 
-              className="flex items-center text-gray-600 hover:text-red-500 transition-colors"
-            >
-              <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Home
-            </a>
-            <div className="ml-4 flex items-center">
-              <span className="text-xl font-bold text-gray-900">iLove</span>
-              <span className="text-xl font-bold text-red-500">PDF</span>
-            </div>
-          </div>
-        </div>
-      </header>
-
+    <Layout>
       {/* Main Content */}
       <main>
         {/* Hero Section */}
@@ -584,42 +566,10 @@ function ContactUs() {
           </div>
         </section>
 
-        {/* Footer Navigation */}
-        <section className="bg-gray-50 py-8">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <a 
-                href="/" 
-                className="text-red-500 hover:text-red-600 font-medium transition-colors"
-              >
-                ← Back to ilovepdf8.com
-              </a>
-              <div className="flex gap-4 text-sm">
-                <a 
-                  href="/terms" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  Terms of Service
-                </a>
-                <a 
-                  href="/privacy" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  Privacy Policy
-                </a>
-                <a 
-                  href="/about" 
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                >
-                  About Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        
       </main>
-    </div>
-  )
+    </Layout> 
+ )
 }
 
 export default ContactUs
